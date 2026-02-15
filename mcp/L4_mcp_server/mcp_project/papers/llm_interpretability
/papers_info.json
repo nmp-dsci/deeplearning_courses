@@ -1,0 +1,65 @@
+{
+  "2407.04307v1": {
+    "title": "Crafting Large Language Models for Enhanced Interpretability",
+    "authors": [
+      "Chung-En Sun",
+      "Tuomas Oikarinen",
+      "Tsui-Wei Weng"
+    ],
+    "summary": "We introduce the Concept Bottleneck Large Language Model (CB-LLM), a pioneering approach to creating inherently interpretable Large Language Models (LLMs). Unlike traditional black-box LLMs that rely on post-hoc interpretation methods with limited neuron function insights, CB-LLM sets a new standard with its built-in interpretability, scalability, and ability to provide clear, accurate explanations. This innovation not only advances transparency in language models but also enhances their effectiveness. Our unique Automatic Concept Correction (ACC) strategy successfully narrows the performance gap with conventional black-box LLMs, positioning CB-LLM as a model that combines the high accuracy of traditional LLMs with the added benefit of clear interpretability -- a feature markedly absent in existing LLMs.",
+    "pdf_url": "https://arxiv.org/pdf/2407.04307v1",
+    "published": "2024-07-05"
+  },
+  "2306.05212v1": {
+    "title": "RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit",
+    "authors": [
+      "Jiongnan Liu",
+      "Jiajie Jin",
+      "Zihan Wang",
+      "Jiehan Cheng",
+      "Zhicheng Dou",
+      "Ji-Rong Wen"
+    ],
+    "summary": "Although Large Language Models (LLMs) have demonstrated extraordinary capabilities in many domains, they still have a tendency to hallucinate and generate fictitious responses to user requests. This problem can be alleviated by augmenting LLMs with information retrieval (IR) systems (also known as retrieval-augmented LLMs). Applying this strategy, LLMs can generate more factual texts in response to user input according to the relevant content retrieved by IR systems from external corpora as references. In addition, by incorporating external knowledge, retrieval-augmented LLMs can answer in-domain questions that cannot be answered by solely relying on the world knowledge stored in parameters. To support research in this area and facilitate the development of retrieval-augmented LLM systems, we develop RETA-LLM, a {RET}reival-{A}ugmented LLM toolkit. In RETA-LLM, we create a complete pipeline to help researchers and users build their customized in-domain LLM-based systems. Compared with previous retrieval-augmented LLM systems, RETA-LLM provides more plug-and-play modules to support better interaction between IR systems and LLMs, including {request rewriting, document retrieval, passage extraction, answer generation, and fact checking} modules. Our toolkit is publicly available at https://github.com/RUC-GSAI/YuLan-IR/tree/main/RETA-LLM.",
+    "pdf_url": "https://arxiv.org/pdf/2306.05212v1",
+    "published": "2023-06-08"
+  },
+  "2509.03518v1": {
+    "title": "Can LLMs Lie? Investigation beyond Hallucination",
+    "authors": [
+      "Haoran Huan",
+      "Mihir Prabhudesai",
+      "Mengning Wu",
+      "Shantanu Jaiswal",
+      "Deepak Pathak"
+    ],
+    "summary": "Large language models (LLMs) have demonstrated impressive capabilities across a variety of tasks, but their increasing autonomy in real-world applications raises concerns about their trustworthiness. While hallucinations-unintentional falsehoods-have been widely studied, the phenomenon of lying, where an LLM knowingly generates falsehoods to achieve an ulterior objective, remains underexplored. In this work, we systematically investigate the lying behavior of LLMs, differentiating it from hallucinations and testing it in practical scenarios. Through mechanistic interpretability techniques, we uncover the neural mechanisms underlying deception, employing logit lens analysis, causal interventions, and contrastive activation steering to identify and control deceptive behavior. We study real-world lying scenarios and introduce behavioral steering vectors that enable fine-grained manipulation of lying tendencies. Further, we explore the trade-offs between lying and end-task performance, establishing a Pareto frontier where dishonesty can enhance goal optimization. Our findings contribute to the broader discourse on AI ethics, shedding light on the risks and potential safeguards for deploying LLMs in high-stakes environments. Code and more illustrations are available at https://llm-liar.github.io/",
+    "pdf_url": "https://arxiv.org/pdf/2509.03518v1",
+    "published": "2025-09-03"
+  },
+  "2408.13006v2": {
+    "title": "Systematic Evaluation of LLM-as-a-Judge in LLM Alignment Tasks: Explainable Metrics and Diverse Prompt Templates",
+    "authors": [
+      "Hui Wei",
+      "Shenghua He",
+      "Tian Xia",
+      "Fei Liu",
+      "Andy Wong",
+      "Jingyang Lin",
+      "Mei Han"
+    ],
+    "summary": "LLM-as-a-Judge has been widely applied to evaluate and compare different LLM alignmnet approaches (e.g., RLHF and DPO). However, concerns regarding its reliability have emerged, due to LLM judges' biases and inconsistent decision-making. Previous research has developed evaluation frameworks to assess reliability of LLM judges and their alignment with human preferences. However, the employed evaluation metrics often lack adequate explainability and fail to address LLM internal inconsistency. Additionally, existing studies inadequately explore the impact of various prompt templates when applying LLM-as-a-Judge methods, leading to potentially inconsistent comparisons between different alignment algorithms. In this work, we systematically evaluate LLM-as-a-Judge on alignment tasks by defining more theoretically interpretable evaluation metrics and explicitly mitigating LLM internal inconsistency from reliability metrics. We develop an open-source framework to evaluate, compare, and visualize the reliability and alignment of LLM judges, which facilitates practitioners to choose LLM judges for alignment tasks. In the experiments, we examine effects of diverse prompt templates on LLM-judge reliability and also demonstrate our developed framework by comparing various LLM judges on two common alignment datasets (i.e., TL;DR Summarization and HH-RLHF-Helpfulness). Our results indicate a significant impact of prompt templates on LLM judge performance, as well as a mediocre alignment level between the tested LLM judges and human evaluators.",
+    "pdf_url": "https://arxiv.org/pdf/2408.13006v2",
+    "published": "2024-08-23"
+  },
+  "2409.13714v1": {
+    "title": "TracrBench: Generating Interpretability Testbeds with Large Language Models",
+    "authors": [
+      "Hannes Thurnherr",
+      "J\u00e9r\u00e9my Scheurer"
+    ],
+    "summary": "Achieving a mechanistic understanding of transformer-based language models is an open challenge, especially due to their large number of parameters. Moreover, the lack of ground truth mappings between model weights and their functional roles hinders the effective evaluation of interpretability methods, impeding overall progress. Tracr, a method for generating compiled transformers with inherent ground truth mappings in RASP, has been proposed to address this issue. However, manually creating a large number of models needed for verifying interpretability methods is labour-intensive and time-consuming. In this work, we present a novel approach for generating interpretability test beds using large language models (LLMs) and introduce TracrBench, a novel dataset consisting of 121 manually written and LLM-generated, human-validated RASP programs and their corresponding transformer weights. During this process, we evaluate the ability of frontier LLMs to autonomously generate RASP programs and find that this task poses significant challenges. GPT-4-turbo, with a 20-shot prompt and best-of-5 sampling, correctly implements only 57 out of 101 test programs, necessitating the manual implementation of the remaining programs. With its 121 samples, TracrBench aims to serve as a valuable testbed for evaluating and comparing interpretability methods.",
+    "pdf_url": "https://arxiv.org/pdf/2409.13714v1",
+    "published": "2024-09-07"
+  }
+}
