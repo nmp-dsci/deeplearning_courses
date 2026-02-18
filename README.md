@@ -27,3 +27,15 @@ course work deeplearning.ai
 * Building and Evaluating Data Agents
 1. trust worthy agents do goal / plan / action  
 
+## AI structure
+
+ * MCP 
+ * pydantic
+ * Fast API 
+ * (deployment) docker
+
+
+
+
+## Example: repo 
+[research_agent](https://github.com/https-deeplearning-ai/agentic-ai-public/tree/main)  : 
