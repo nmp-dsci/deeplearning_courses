@@ -13,7 +13,10 @@ Objective: learn structure of repo and factor parts of it.
  * tooling => MCP (`refactor`)
  * API? fastapi 
  * multi-agent planner ? manual: MOVE to MCP Orchestrator (`refactor`)
-
+ * Error handling:
+ * *  try/ catch 
+ * * gracefully handling connection issues
+ * 
 
 
 Comar
