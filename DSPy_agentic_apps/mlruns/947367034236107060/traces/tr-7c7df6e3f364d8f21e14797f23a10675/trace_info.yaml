@@ -1,0 +1,10 @@
+execution_duration_ms: 47233
+request_preview: '{"question": "Where did the star of Redbelt get a scholarship?"}'
+request_time: '2026-03-24T04:24:38.519Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-7c7df6e3f364d8f21e14797f23a10675
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

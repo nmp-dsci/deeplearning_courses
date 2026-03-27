@@ -1,0 +1,11 @@
+execution_duration_ms: 69777
+request_preview: '{"question": "Carry On is a 4-CD career retrospective box set by
+  Stephen Stills, including tracks with the vocal folk rock supergroup named what?"}'
+request_time: '2026-03-24T04:08:13.044Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-8a641c23d6e87df7f56d99a37bdea2f5
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

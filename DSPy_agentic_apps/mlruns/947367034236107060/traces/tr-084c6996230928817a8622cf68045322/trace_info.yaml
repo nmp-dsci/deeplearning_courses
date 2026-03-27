@@ -1,0 +1,11 @@
+execution_duration_ms: 37461
+request_preview: '{"question": "Singwango Secondary School had a sister school in
+  a census-designated place in the town of North Hempstead in what county of New York?"}'
+request_time: '2026-03-24T04:10:11.542Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-084c6996230928817a8622cf68045322
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

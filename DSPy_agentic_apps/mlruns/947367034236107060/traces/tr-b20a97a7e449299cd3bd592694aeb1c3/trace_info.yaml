@@ -1,0 +1,21 @@
+execution_duration_ms: 27240
+request_preview: '{"question": "What animated creatures were the title characters
+  of the film which was based one of the most frequently performed plays written by
+  William Shakespeare early in his career?"}'
+request_time: '2026-03-24T04:04:04.876Z'
+response_preview: '{"trajectory": {"thought_0": "The question refers to an animated
+  film based on a frequently performed play by Shakespeare. The likely candidate is
+  \"A Midsummer Night''s Dream,\" which has inspired various adaptations. I need to
+  find out which animated creatures were featured as title characters in a film adaptation
+  of this play.", "tool_name_0": "search_wikipedia", "tool_args_0": {"query": "animated
+  film A Midsummer Night''s Dream title characters"}, "observation_0": "Execution
+  error in search_wikipedia: \nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanp...'
+state: OK
+trace_id: tr-b20a97a7e449299cd3bd592694aeb1c3
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

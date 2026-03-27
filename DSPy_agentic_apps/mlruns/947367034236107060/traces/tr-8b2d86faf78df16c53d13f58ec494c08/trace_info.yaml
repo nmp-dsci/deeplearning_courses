@@ -1,0 +1,11 @@
+execution_duration_ms: 21318
+request_preview: '{"question": "What is the year of the event which occurred first,
+  Michael Mantenuto was born, or Miracle was produced?"}'
+request_time: '2026-03-24T04:12:05.863Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-8b2d86faf78df16c53d13f58ec494c08
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

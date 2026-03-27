@@ -1,0 +1,19 @@
+execution_duration_ms: 29065
+request_preview: '{"question": "Bill Stoneham created a painting that was posted for
+  sale on eBay in what year?"}'
+request_time: '2026-03-24T04:21:12.458Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find information about
+  Bill Stoneham''s painting that was sold on eBay, specifically looking for the year
+  it was posted for sale. Searching on Wikipedia might provide relevant details about
+  his works and their sales.", "tool_name_0": "search_wikipedia", "tool_args_0": {"query":
+  "Bill Stoneham painting eBay sale year"}, "observation_0": "Execution error in search_wikipedia:
+  \nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/...'
+state: OK
+trace_id: tr-2cabf3e0e9f2bcb0455199e68dc544ff
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

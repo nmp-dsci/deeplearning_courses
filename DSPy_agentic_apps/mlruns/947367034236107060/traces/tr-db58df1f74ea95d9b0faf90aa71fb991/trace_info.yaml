@@ -1,0 +1,11 @@
+execution_duration_ms: 51558
+request_preview: '{"question": "Yazdegerd II fought wars against which Central Asian
+  people based in Bactria?"}'
+request_time: '2026-03-24T04:00:17.010Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-db58df1f74ea95d9b0faf90aa71fb991
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

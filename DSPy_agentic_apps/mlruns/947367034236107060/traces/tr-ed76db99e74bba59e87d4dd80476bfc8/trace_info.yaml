@@ -1,0 +1,11 @@
+execution_duration_ms: 11348
+request_preview: '{"question": "In what army is Mehmetçik slang for a common a common
+  soldier?"}'
+request_time: '2026-03-24T04:12:27.251Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-ed76db99e74bba59e87d4dd80476bfc8
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,11 @@
+execution_duration_ms: 59256
+request_preview: '{"question": "Do Bijou and Derby both have the same main alcoholic
+  component?"}'
+request_time: '2026-03-24T04:23:39.243Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-c42d0f0ae527876fc3fc2c177492b179
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,11 @@
+execution_duration_ms: 98059
+request_preview: '{"question": "Which science fiction trilogy has in the lead role
+  an actress who had a voice role in the 3D film Peter Rabbit?"}'
+request_time: '2026-03-24T04:04:04.883Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-d5c129a3c6bb52f7971fd1433b049af3
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

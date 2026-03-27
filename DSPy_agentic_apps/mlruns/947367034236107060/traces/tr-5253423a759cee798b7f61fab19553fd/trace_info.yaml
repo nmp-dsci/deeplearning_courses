@@ -1,0 +1,11 @@
+execution_duration_ms: 44742
+request_preview: '{"question": "Widows'' Peak stars what English actress commonly
+  known as  Dame"}'
+request_time: '2026-03-24T04:12:27.237Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-5253423a759cee798b7f61fab19553fd
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

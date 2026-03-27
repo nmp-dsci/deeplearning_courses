@@ -1,0 +1,11 @@
+execution_duration_ms: 56335
+request_preview: '{"question": "What date did the American actress and singer-songwriter,
+  known for her role as Peggy Bundy, release her first album?"}'
+request_time: '2026-03-24T04:11:47.292Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-746fa829d24eeed9ce230b290a225d27
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

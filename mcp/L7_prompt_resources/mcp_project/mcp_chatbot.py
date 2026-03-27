@@ -9,7 +9,8 @@ import nest_asyncio
 
 nest_asyncio.apply()
 
-load_dotenv()
+
+
 
 class MCP_ChatBot:
     def __init__(self):

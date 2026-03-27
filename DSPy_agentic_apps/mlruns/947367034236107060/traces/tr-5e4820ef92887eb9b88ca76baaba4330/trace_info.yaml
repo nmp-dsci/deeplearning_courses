@@ -1,0 +1,19 @@
+execution_duration_ms: 29402
+request_preview: '{"question": "Which major river is Buford, North Dakota nearest
+  to?"}'
+request_time: '2026-03-24T03:58:30.173Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find out which major river
+  is closest to Buford, North Dakota. This information might be available on Wikipedia
+  or similar sources, so I will search for the relevant details about Buford and its
+  nearby rivers.", "tool_name_0": "search_wikipedia", "tool_args_0": {"query": "Buford,
+  North Dakota major river nearby"}, "observation_0": "Execution error in search_wikipedia:
+  \nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util...'
+state: OK
+trace_id: tr-5e4820ef92887eb9b88ca76baaba4330
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

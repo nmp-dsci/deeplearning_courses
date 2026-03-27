@@ -1,0 +1,11 @@
+execution_duration_ms: 66978
+request_preview: '{"question": "The principal building in the village of Guthrie dates
+  back to what century?"}'
+request_time: '2026-03-24T04:17:46.405Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-b6856f44040cf23a2a28751fe1f55528
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

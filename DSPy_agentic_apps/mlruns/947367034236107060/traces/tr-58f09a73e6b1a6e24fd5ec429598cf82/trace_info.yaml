@@ -1,0 +1,11 @@
+execution_duration_ms: 10964
+request_preview: '{"question": "in the 1975–76, Seattle SuperSonics lost to a team
+  based in which US state ?"}'
+request_time: '2026-03-24T04:07:11.500Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-58f09a73e6b1a6e24fd5ec429598cf82
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,19 @@
+execution_duration_ms: 38958
+request_preview: '{"question": "What musical instrument does Amaan Ali Khan and  Amjad
+  Ali Khan both play?"}'
+request_time: '2026-03-24T04:10:55.441Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find out which musical
+  instrument both Amaan Ali Khan and Amjad Ali Khan play. Since both individuals are
+  prominent figures in the music world, I will look up information about them to confirm
+  the instrument they are associated with.", "tool_name_0": "search_wikipedia", "tool_args_0":
+  {"query": "Amaan Ali Khan Amjad Ali Khan instrument"}, "observation_0": "Execution
+  error in search_wikipedia: \nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/s...'
+state: OK
+trace_id: tr-f0f635f21454a08d1c0e7bcad5869d77
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

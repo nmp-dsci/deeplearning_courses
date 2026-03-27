@@ -1,0 +1,20 @@
+execution_duration_ms: 36081
+request_preview: '{"question": "Juan Carlos Moreno Rojo plays for a team that plays
+  in which league ?"}'
+request_time: '2026-03-24T04:07:27.676Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find out which team Juan
+  Carlos Moreno Rojo plays for in order to determine the league in which that team
+  competes. Since I do not have this information readily available, I will search
+  for Juan Carlos Moreno Rojo to gather relevant details about his current team and
+  the league.", "tool_name_0": "search_wikipedia", "tool_args_0": {"query": "Juan
+  Carlos Moreno Rojo"}, "observation_0": "Execution error in search_wikipedia: \nTraceback
+  (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agenti...'
+state: OK
+trace_id: tr-591aa6822a2b4f7c9681041ea1964cc6
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,11 @@
+execution_duration_ms: 43881
+request_preview: '{"question": "Jay Simon is best known for her role as a flight attendant
+  in a movie directed by which director ?"}'
+request_time: '2026-03-24T04:10:11.545Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-1598d72ed3918bd99a94b523e60ef7bc
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

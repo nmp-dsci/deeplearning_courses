@@ -1,0 +1,19 @@
+execution_duration_ms: 22819
+request_preview: '{"question": "What is Amanda Crew''s role in the movie Sex Drive?"}'
+request_time: '2026-03-24T04:10:11.583Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find out what role Amanda
+  Crew plays in the movie \"Sex Drive.\" This movie is a teen comedy, and Amanda Crew
+  is an actress, but I do not have specific information about her character yet. Searching
+  for pertinent details about her role will provide the answer I need.", "tool_name_0":
+  "search_wikipedia", "tool_args_0": {"query": "Amanda Crew Sex Drive"}, "observation_0":
+  "Execution error in search_wikipedia: \nTraceback (most recent call last):\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/l...'
+state: OK
+trace_id: tr-2981023fcedaf0246c4664fd53def0b6
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

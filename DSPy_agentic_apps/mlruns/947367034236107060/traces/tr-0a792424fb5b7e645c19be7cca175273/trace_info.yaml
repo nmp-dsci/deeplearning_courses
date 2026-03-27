@@ -1,0 +1,11 @@
+execution_duration_ms: 61762
+request_preview: '{"question": "Were both Nine Black Alps and Brand New formed in
+  2000 or later?"}'
+request_time: '2026-03-24T04:08:36.248Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-0a792424fb5b7e645c19be7cca175273
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

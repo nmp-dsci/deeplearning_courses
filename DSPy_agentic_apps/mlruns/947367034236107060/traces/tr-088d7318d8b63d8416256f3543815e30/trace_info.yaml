@@ -1,0 +1,10 @@
+execution_duration_ms: 39937
+request_preview: '{"question": "Which star in Shadows in Paradise is a Russian ballerina?"}'
+request_time: '2026-03-24T04:14:40.453Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-088d7318d8b63d8416256f3543815e30
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

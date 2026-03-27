@@ -1,0 +1,11 @@
+execution_duration_ms: 77519
+request_preview: '{"question": "What was the meaning of the name of the man who appointed
+  Amashsai?"}'
+request_time: '2026-03-24T04:18:59.811Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-85d2043ff036ab7e4f120107d078beb7
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

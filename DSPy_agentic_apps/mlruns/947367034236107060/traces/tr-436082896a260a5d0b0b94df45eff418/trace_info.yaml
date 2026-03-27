@@ -1,0 +1,11 @@
+execution_duration_ms: 34230
+request_preview: '{"question": "Which suitcase manufacturer is named after a Peruvian
+  artifact and has a store in an urban shopping mall in Time Warner Center in Manhattan?"}'
+request_time: '2026-03-24T04:08:37.743Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-436082896a260a5d0b0b94df45eff418
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

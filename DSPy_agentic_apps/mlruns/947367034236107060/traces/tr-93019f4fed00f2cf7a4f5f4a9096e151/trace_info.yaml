@@ -1,0 +1,11 @@
+execution_duration_ms: 72993
+request_preview: '{"question": "What film was William Fichtner in that also had Heath
+  Ledger in it?"}'
+request_time: '2026-03-24T04:07:27.684Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-93019f4fed00f2cf7a4f5f4a9096e151
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

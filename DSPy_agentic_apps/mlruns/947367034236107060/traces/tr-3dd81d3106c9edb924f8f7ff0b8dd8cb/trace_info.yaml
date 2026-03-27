@@ -1,0 +1,20 @@
+execution_duration_ms: 31258
+request_preview: '{"question": "Was the boxing match between Carl Froch vs. George
+  Groves, billed as the \"Battle of Britain\", held indoors or outdoors?"}'
+request_time: '2026-03-24T04:17:26.753Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find out whether the boxing
+  match between Carl Froch and George Groves, known as the \"Battle of Britain,\"
+  was held indoors or outdoors. The match was significant and likely has detailed
+  information available. I should search for it.", "tool_name_0": "search_wikipedia",
+  "tool_args_0": {"query": "Carl Froch vs George Groves Battle of Britain match details"},
+  "observation_0": "Execution error in search_wikipedia: \nTraceback (most recent
+  call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.v...'
+state: OK
+trace_id: tr-3dd81d3106c9edb924f8f7ff0b8dd8cb
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

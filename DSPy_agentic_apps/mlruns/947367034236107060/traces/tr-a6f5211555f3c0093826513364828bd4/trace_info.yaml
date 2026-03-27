@@ -1,0 +1,11 @@
+execution_duration_ms: 52508
+request_preview: '{"question": "What actress from the 1999 movie The Virgin Suicides
+  has won two golden globes and been nominated for an academy award?"}'
+request_time: '2026-03-24T04:24:23.520Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-a6f5211555f3c0093826513364828bd4
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

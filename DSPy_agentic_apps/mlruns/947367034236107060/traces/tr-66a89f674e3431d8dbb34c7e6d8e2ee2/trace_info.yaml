@@ -1,0 +1,11 @@
+execution_duration_ms: 10882
+request_preview: '{"question": "Intimidator 305 and Thunder Dolphin are what type
+  of roller coaster?"}'
+request_time: '2026-03-24T04:08:33.263Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-66a89f674e3431d8dbb34c7e6d8e2ee2
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,11 @@
+execution_duration_ms: 25067
+request_preview: '{"question": "Which is the taller mountain, Dhaulagiri I, or Sia
+  Kangri?"}'
+request_time: '2026-03-24T04:02:53.967Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-3b1fc2f00402194060be86f5a42cd169
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

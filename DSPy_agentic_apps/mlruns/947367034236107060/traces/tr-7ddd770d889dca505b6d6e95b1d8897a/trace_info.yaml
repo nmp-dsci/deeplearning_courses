@@ -1,0 +1,11 @@
+execution_duration_ms: 38704
+request_preview: '{"question": "Who was a dentist as well as an author, Zane Grey
+  or Thomas Sigismund Stribling?"}'
+request_time: '2026-03-24T04:00:40.923Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-7ddd770d889dca505b6d6e95b1d8897a
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

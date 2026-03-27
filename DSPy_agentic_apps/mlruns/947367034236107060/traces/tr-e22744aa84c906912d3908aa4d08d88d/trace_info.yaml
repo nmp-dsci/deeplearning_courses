@@ -1,0 +1,19 @@
+execution_duration_ms: 27770
+request_preview: '{"question": "Who did Holly Dunn record \"Daddy''s Hands\" for?"}'
+request_time: '2026-03-24T03:45:30.218Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find out who Holly Dunn
+  recorded \"Daddy''s Hands\" for. This might require searching for the song''s background
+  or its significance to Holly Dunn, which could clarify who it was recorded for.",
+  "tool_name_0": "search_wikipedia", "tool_args_0": {"query": "Holly Dunn Daddy''s
+  Hands"}, "observation_0": "Execution error in search_wikipedia: \nTraceback (most
+  recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 73, in crea...'
+state: OK
+trace_id: tr-e22744aa84c906912d3908aa4d08d88d
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,11 @@
+execution_duration_ms: 19296
+request_preview: '{"question": "Which professional basketball player won a NBA championship
+  and spoke positively on the book \"the 21 irrefutable laws of leadership\"?"}'
+request_time: '2026-03-24T04:11:47.298Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-def2df45bec34435d4a132f3e49609ca
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

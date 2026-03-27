@@ -1,0 +1,11 @@
+execution_duration_ms: 21847
+request_preview: '{"question": "what revolution led to the overthrow of King James
+  II of England and its news led to overthrow of androws in the Boston Revolt"}'
+request_time: '2026-03-24T04:09:02.139Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-e40fad48838b0fe8e7cc923297fe3605
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

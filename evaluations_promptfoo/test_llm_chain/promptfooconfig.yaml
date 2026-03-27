@@ -1,0 +1,36 @@
+prompts:
+  - "{{question}}"
+
+providers:
+  - "exec:.venv/bin/python llm_model.py"
+
+tests:
+  - vars:
+      question: What is 2 + 2?
+    assert:
+      - type: equals
+        value: "4"
+
+  - vars:
+      question: What is 12 * 8?
+    assert:
+      - type: equals
+        value: "96"
+
+  - vars:
+      question: What is 144 / 12?
+    assert:
+      - type: equals
+        value: "12"
+
+  - vars:
+      question: What is 15% of 200?
+    assert:
+      - type: equals
+        value: "30"
+
+  - vars:
+      question: What is the square root of 81?
+    assert:
+      - type: equals
+        value: "9"

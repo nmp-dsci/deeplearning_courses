@@ -1,0 +1,11 @@
+execution_duration_ms: 48341
+request_preview: '{"question": "Reggie Grimes played for New England Patriots in 2000,
+  and where did he play college football?"}'
+request_time: '2026-03-24T04:10:11.543Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-753a27039bff2c86d795fd9a59ff7bae
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

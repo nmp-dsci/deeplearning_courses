@@ -1,0 +1,10 @@
+execution_duration_ms: 80618
+request_preview: '{"question": "Kyle Moran was born in the town on what river?"}'
+request_time: '2026-03-24T04:23:39.247Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-d1ea33ae967946ca29fccedb9052b0d6
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

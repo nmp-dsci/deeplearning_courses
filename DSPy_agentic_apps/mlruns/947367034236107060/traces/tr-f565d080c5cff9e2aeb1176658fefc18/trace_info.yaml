@@ -1,0 +1,28 @@
+execution_duration_ms: 16451
+request_preview: '{"demo_candidates": {"0": [[], ["Example({''question'': ''Who is
+  the person who\\''s autobiography was written by Gina Smith and was nicknamed \"The
+  Woz\"?'', ''answer'': ''Steve Wozniak''}) (input_keys={''question''})", "Example({''question'':
+  \"What is the same of the city that  is the second largest city municipality in
+  Italy and appeared in The 2010 Giro d''Italia?\", ''answer'': ''Verona''}) (input_keys={''question''})",
+  "Example({''question'': ''In addition to Ryan Gosling, Angourie Rice and the actor
+  born on October 11, 1977, who else starred in The Nice Guys?'', ''answer'': ''Russell
+  Crowe''}) (input_keys={''question''})", "Example({''question'': ''Long Lake is located
+  in which town?'', ''answer'': ''Harrison''}) (input_keys={''question''})"], ["Example({''augmented'':
+  True, ''question'': ''That Darn Cat! and Never a Dull Moment were both produced
+  by what studio?'', ''trajectory'': ''[[ ## thought_0 ## ]]\\nI need to find out
+  which studio produced both \"That Darn Cat!\" and \"Never a Dull Moment.\" This
+  information is lik...'
+request_time: '2026-03-24T03:56:19.914Z'
+response_preview: '{"proposed_instruction": "Given the fields `question` and `trajectory`,
+  formulate your next thought that reflects your reasoning about how to answer the
+  question. Then, select one of the supplied tools that would help you gather necessary
+  information. Specify the tool''s name (`search_wikipedia` or `finish`) and provide
+  the required arguments for the chosen tool. Utilize this iterative process to build
+  your answer effectively, deciding at each turn whether to seek more information
+  or finalize the response."}'
+state: OK
+trace_id: tr-f565d080c5cff9e2aeb1176658fefc18
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

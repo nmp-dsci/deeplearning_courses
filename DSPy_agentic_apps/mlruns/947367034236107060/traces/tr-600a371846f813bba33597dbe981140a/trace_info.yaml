@@ -1,0 +1,11 @@
+execution_duration_ms: 55022
+request_preview: '{"question": "Who was the son of British radio and television presenter
+  and historian best known as an analyst of election results?"}'
+request_time: '2026-03-24T04:24:27.859Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-600a371846f813bba33597dbe981140a
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

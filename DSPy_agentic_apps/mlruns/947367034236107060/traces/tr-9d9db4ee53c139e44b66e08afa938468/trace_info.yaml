@@ -1,0 +1,20 @@
+execution_duration_ms: 21826
+request_preview: '{"question": "Which American actress who made their film debut in
+  the 1995 teen drama \"Kids\" was the co-founder of Voto Latino?"}'
+request_time: '2026-03-24T04:01:43.186Z'
+response_preview: '{"trajectory": {"thought_0": "I recall that the American actress
+  who made her film debut in \"Kids\" is Rosario Dawson. She is also known for her
+  role in co-founding Voto Latino, an organization that aims to engage and build the
+  political power of American Latino citizens. I just need to confirm this information
+  before finishing.", "tool_name_0": "search_wikipedia", "tool_args_0": {"query":
+  "Rosario Dawson Voto Latino"}, "observation_0": "Execution error in search_wikipedia:
+  \nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_cour...'
+state: OK
+trace_id: tr-9d9db4ee53c139e44b66e08afa938468
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

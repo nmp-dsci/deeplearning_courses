@@ -1,0 +1,12 @@
+execution_duration_ms: 47089
+request_preview: '{"question": "When considering the two peaks known as Noijin Kangsang
+  and Masherbrum, which of them has the greatest height related to their respected
+  ranges?"}'
+request_time: '2026-03-24T04:05:31.413Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-15eb26d4959a7a009355dae3ac342351
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

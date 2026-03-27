@@ -1,0 +1,11 @@
+execution_duration_ms: 44036
+request_preview: '{"question": "Utterby is situated on the road that is in what English
+  region?"}'
+request_time: '2026-03-24T04:10:11.573Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-2ec72d0e59abb4009d401ea4e9964610
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

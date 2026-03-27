@@ -1,0 +1,11 @@
+execution_duration_ms: 49685
+request_preview: '{"question": "Premier League forward Dominic Calvert Levin scored
+  the winning goal of the 2017 U20 World Cup for which country?"}'
+request_time: '2026-03-24T04:23:21.116Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-fec42c43a443736425c6dadfaf9a8363
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

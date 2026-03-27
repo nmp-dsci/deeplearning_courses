@@ -1,0 +1,20 @@
+execution_duration_ms: 35243
+request_preview: '{"question": "ShopBack is affiliated with which Indian electronic
+  payment brand?"}'
+request_time: '2026-03-24T04:16:27.532Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find information about
+  ShopBack and its affiliations, specifically with Indian electronic payment brands.
+  This requires a search to get the most accurate and up-to-date information regarding
+  any partnerships or affiliations they have established.", "tool_name_0": "search_wikipedia",
+  "tool_args_0": {"query": "ShopBack Indian electronic payment brand affiliation"},
+  "observation_0": "Execution error in search_wikipedia: \nTraceback (most recent
+  call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_ap...'
+state: OK
+trace_id: tr-59540555ab7aed678f61a5d9b124f3e3
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

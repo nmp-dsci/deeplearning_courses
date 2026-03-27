@@ -1,0 +1,11 @@
+execution_duration_ms: 25759
+request_preview: '{"question": "What movie did \"the king of cool\" play in with Bud
+  Ekins as his stunt double?"}'
+request_time: '2026-03-24T04:12:06.621Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-76d25b398784b464176c912072a8d4a5
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

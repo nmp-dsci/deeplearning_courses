@@ -1,0 +1,12 @@
+execution_duration_ms: 54925
+request_preview: '{"question": "What is the name of this Irish singer-songwriter,
+  musician, venture capitalist, businessman, and philanthropist, who wrote \"Love
+  Is Blindness\" on the piano?"}'
+request_time: '2026-03-24T04:11:47.287Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-2aaff2a48c23adf2be8e35514a5457d3
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

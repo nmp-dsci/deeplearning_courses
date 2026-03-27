@@ -1,0 +1,10 @@
+execution_duration_ms: 23386
+request_preview: '{"question": "Which genre of Italian film was the first to use CGI?"}'
+request_time: '2026-03-24T04:14:53.710Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-8cf75e9a92315f95a0d13ba275142e79
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

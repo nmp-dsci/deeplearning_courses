@@ -1,0 +1,20 @@
+execution_duration_ms: 33074
+request_preview: '{"question": "Intimidator 305 and Thunder Dolphin are what type
+  of roller coaster?"}'
+request_time: '2026-03-24T04:01:07.955Z'
+response_preview: '{"trajectory": {"thought_0": "I need to gather information about
+  both Intimidator 305 and Thunder Dolphin to determine their types of roller coasters.
+  Searching for these roller coasters may provide insights into their classifications.",
+  "tool_name_0": "search_wikipedia", "tool_args_0": {"query": "Intimidator 305 roller
+  coaster type"}, "observation_0": "Execution error in search_wikipedia: \nTraceback
+  (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  ...'
+state: OK
+trace_id: tr-0a3ca82801c8959cbca9b74bc1450b90
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

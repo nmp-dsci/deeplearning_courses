@@ -1,0 +1,11 @@
+execution_duration_ms: 86446
+request_preview: '{"question": "Juan Carlos Moreno Rojo plays for a team that plays
+  in which league ?"}'
+request_time: '2026-03-24T04:23:39.230Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-4e688e05f9dbf57248e34a2e6c00e507
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

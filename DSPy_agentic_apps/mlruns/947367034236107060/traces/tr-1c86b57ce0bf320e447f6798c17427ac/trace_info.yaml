@@ -1,0 +1,10 @@
+execution_duration_ms: 53237
+request_preview: '{"question": "Are Norma and Idomeneo both operas by Bellini?"}'
+request_time: '2026-03-24T04:25:14.002Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-1c86b57ce0bf320e447f6798c17427ac
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

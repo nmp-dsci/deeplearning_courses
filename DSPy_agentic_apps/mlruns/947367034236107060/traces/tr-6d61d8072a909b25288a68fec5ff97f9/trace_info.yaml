@@ -1,0 +1,20 @@
+execution_duration_ms: 8862
+request_preview: '{"question": "Bill Stoneham created a painting that was posted for
+  sale on eBay in what year?"}'
+request_time: '2026-03-24T04:15:23.272Z'
+response_preview: '{"trajectory": {"thought_0": "I need to gather information about
+  Bill Stoneham and the specific year he posted his painting for sale on eBay. This
+  might involve searching for articles or entries that discuss this event in relation
+  to the artist and his works.", "tool_name_0": "search_wikipedia", "tool_args_0":
+  {"type": "object", "additionalProperties": true, "query": "Bill Stoneham eBay painting
+  sale year"}, "observation_0": "Execution error in search_wikipedia: \nTraceback
+  (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/predict/react.py\",
+  line 111, in forward\n    trajectory[f\"observation_{idx}\"] = self.tools[pred.next_tool_name](**pred.next_tool_args)\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/utils/callback.py\",
+  line 343,...'
+state: OK
+trace_id: tr-6d61d8072a909b25288a68fec5ff97f9
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

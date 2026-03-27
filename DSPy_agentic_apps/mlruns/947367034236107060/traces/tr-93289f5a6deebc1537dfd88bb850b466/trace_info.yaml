@@ -1,0 +1,26 @@
+execution_duration_ms: 20023
+request_preview: '{"demo_candidates": {"0": [[], ["Example({''question'': ''Who is
+  the person who\\''s autobiography was written by Gina Smith and was nicknamed \"The
+  Woz\"?'', ''answer'': ''Steve Wozniak''}) (input_keys={''question''})", "Example({''question'':
+  \"What is the same of the city that  is the second largest city municipality in
+  Italy and appeared in The 2010 Giro d''Italia?\", ''answer'': ''Verona''}) (input_keys={''question''})",
+  "Example({''question'': ''In addition to Ryan Gosling, Angourie Rice and the actor
+  born on October 11, 1977, who else starred in The Nice Guys?'', ''answer'': ''Russell
+  Crowe''}) (input_keys={''question''})", "Example({''question'': ''Long Lake is located
+  in which town?'', ''answer'': ''Harrison''}) (input_keys={''question''})"], ["Example({''augmented'':
+  True, ''question'': ''That Darn Cat! and Never a Dull Moment were both produced
+  by what studio?'', ''trajectory'': ''[[ ## thought_0 ## ]]\\nI need to find out
+  which studio produced both \"That Darn Cat!\" and \"Never a Dull Moment.\" This
+  information is lik...'
+request_time: '2026-03-24T03:57:30.137Z'
+response_preview: '{"proposed_instruction": "You are an inquisitive researcher. Given
+  the fields `question` and the historical `trajectory` of your searches, employ your
+  reasoning skills to analyze the provided data and logically derive an insightful
+  `answer` related to the inquiry. Use the history of previously gathered information
+  to ensure that your response is well-informed and relevant."}'
+state: OK
+trace_id: tr-93289f5a6deebc1537dfd88bb850b466
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

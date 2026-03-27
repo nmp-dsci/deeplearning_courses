@@ -1,0 +1,11 @@
+execution_duration_ms: 11630
+request_preview: '{"question": "Bill Stoneham created a painting that was posted for
+  sale on eBay in what year?"}'
+request_time: '2026-03-24T04:04:21.910Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-1899dd9f6a6dd9461f529a43945a4245
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

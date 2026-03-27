@@ -1,0 +1,10 @@
+execution_duration_ms: 18345
+request_preview: '{"question": "Are Hüsker Dü and The Colourist both musical bands?"}'
+request_time: '2026-03-24T04:23:20.823Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-386fdb1e13374215ae54a760f5a694d1
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

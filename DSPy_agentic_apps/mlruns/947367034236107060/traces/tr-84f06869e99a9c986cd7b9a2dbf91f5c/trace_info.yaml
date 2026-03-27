@@ -1,0 +1,18 @@
+execution_duration_ms: 28789
+request_preview: '{"question": "Who was the son of British radio and television presenter
+  and historian best known as an analyst of election results?"}'
+request_time: '2026-03-24T04:13:05.835Z'
+response_preview: '{"trajectory": {"thought_0": "I need to identify the British radio
+  and television presenter known for analyzing election results to find out who his
+  son is. This may involve searching for notable figures in British media and history.",
+  "tool_name_0": "search_wikipedia", "tool_args_0": {}, "observation_0": "Execution
+  error in search_wikipedia: \nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/predict/react.py\",
+  line 111, in forward\n    trajectory[f\"observation_{idx}\"] = self.tools[pred.next_tool_name](**pred.next_tool_args)\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/utils/callback.py\",
+  line 343, in sync_wrapper\n    raise exception\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib...'
+state: OK
+trace_id: tr-84f06869e99a9c986cd7b9a2dbf91f5c
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

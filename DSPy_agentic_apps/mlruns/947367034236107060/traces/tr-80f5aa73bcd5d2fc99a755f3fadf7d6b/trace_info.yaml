@@ -1,0 +1,20 @@
+execution_duration_ms: 19638
+request_preview: '{"question": "what is the largest university press in the world
+  that published Oxford Companions?"}'
+request_time: '2026-03-24T04:16:27.524Z'
+response_preview: '{"trajectory": {"thought_0": "The question asks about the largest
+  university press in the world that has published the Oxford Companions. I need to
+  gather information to identify which university press this is, as it may require
+  a look-up for the correct and most up-to-date answer.", "tool_name_0": "search_wikipedia",
+  "tool_args_0": {"query": "largest university press in the world Oxford Companions"},
+  "observation_0": "Execution error in search_wikipedia: \nTraceback (most recent
+  call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_app...'
+state: OK
+trace_id: tr-80f5aa73bcd5d2fc99a755f3fadf7d6b
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

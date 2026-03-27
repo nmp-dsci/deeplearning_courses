@@ -1,0 +1,20 @@
+execution_duration_ms: 37074
+request_preview: '{"question": "whos family had their own reality tv show. Robert
+  Kardashian or Manvel Gamburyan?"}'
+request_time: '2026-03-24T04:10:58.580Z'
+response_preview: '{"trajectory": {"thought_0": "I need to determine which individual,
+  Robert Kardashian or Manvel Gamburyan, has a family that starred in a reality TV
+  show. Robert Kardashian is famously associated with the Kardashian family, known
+  for their reality show \"Keeping Up with the Kardashians.\" On the other hand, Manvel
+  Gamburyan may not be as well known in the context of reality TV. I will verify this
+  information by searching for both individuals.", "tool_name_0": "search_wikipedia",
+  "tool_args_0": {"query": "Robert Kardashian and reality TV"}, "observation_0": "Execution
+  error in search_wikipedia: \nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3...'
+state: OK
+trace_id: tr-60c7b72a6b5b7d436f0c08ed5a948e08
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

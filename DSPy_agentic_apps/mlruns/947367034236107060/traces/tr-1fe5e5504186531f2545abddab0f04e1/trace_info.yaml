@@ -1,0 +1,12 @@
+execution_duration_ms: 39495
+request_preview: '{"question": "Former Dominican-American Major League Baseball, Ruddy
+  Lugo, attended a high school with notable alumni such as which 24th round pick of
+  the Texas Rangers in the 1992 draft?"}'
+request_time: '2026-03-24T04:23:37.698Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-1fe5e5504186531f2545abddab0f04e1
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

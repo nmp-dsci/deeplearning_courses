@@ -1,0 +1,19 @@
+execution_duration_ms: 28670
+request_preview: '{"question": "Gulfstream International Airlines later became a regional
+  carrier based out of what airport?"}'
+request_time: '2026-03-24T03:50:19.185Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find the airport where
+  Gulfstream International Airlines eventually became a regional carrier. A search
+  for Gulfstream International Airlines and its associated airport might provide the
+  necessary information.", "tool_name_0": "search_wikipedia", "tool_args_0": {"query":
+  "Gulfstream International Airlines airport"}, "observation_0": "Execution error
+  in search_wikipedia: \nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/ut...'
+state: OK
+trace_id: tr-7fc4f4d9ca4e47b4f80f5a3dc3d4acf8
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

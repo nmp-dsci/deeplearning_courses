@@ -1,0 +1,11 @@
+execution_duration_ms: 63170
+request_preview: '{"question": "Were Dorothy Arzner and Richard Wallace both French
+  film directors?"}'
+request_time: '2026-03-24T04:24:59.883Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-5921d3788faa914a63053e0869ffead8
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

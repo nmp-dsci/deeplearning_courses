@@ -1,0 +1,18 @@
+execution_duration_ms: 61694
+request_preview: '{"question": "Kyle Moran was born in the town on what river?"}'
+request_time: '2026-03-24T04:01:35.340Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find out where Kyle Moran
+  was born and which river that town is located on. Searching for general information
+  about Kyle Moran will likely help answer this question.", "tool_name_0": "search_wikipedia",
+  "tool_args_0": {"query": "Kyle Moran"}, "observation_0": "Execution error in search_wikipedia:
+  \nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 73, in create_connection\n    sock.connect(sa)\nTi...'
+state: OK
+trace_id: tr-bfffe78c229a755b33016f2097942554
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

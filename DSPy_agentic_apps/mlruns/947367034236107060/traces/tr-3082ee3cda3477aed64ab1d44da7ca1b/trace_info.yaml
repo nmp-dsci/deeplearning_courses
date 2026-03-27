@@ -1,0 +1,11 @@
+execution_duration_ms: 21327
+request_preview: '{"question": "What year did the war during which Pompiliu Ștefu
+  was executed end?"}'
+request_time: '2026-03-24T04:23:21.115Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-3082ee3cda3477aed64ab1d44da7ca1b
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,11 @@
+execution_duration_ms: 58316
+request_preview: '{"question": "In which competition held in Buenos Aires, Argentina
+  did Stanly Stanczyk win a gold medal?"}'
+request_time: '2026-03-24T04:24:20.485Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-de9ad8aead96b5c6dbd94b476b2782de
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

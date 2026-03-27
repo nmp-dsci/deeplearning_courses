@@ -1,0 +1,20 @@
+execution_duration_ms: 42479
+request_preview: '{"question": "The principal building in the village of Guthrie dates
+  back to what century?"}'
+request_time: '2026-03-24T04:14:27.761Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find information about
+  the principal building in the village of Guthrie, specifically the century it dates
+  back to. Searching for Guthrie might lead to relevant historical information.",
+  "tool_name_0": "search_wikipedia", "tool_args_0": {"query": "Guthrie village principal
+  building history"}, "observation_0": "Execution error in search_wikipedia: \nTraceback
+  (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line...'
+state: OK
+trace_id: tr-40a3cb187fe4f885bf0ccd750ab9aa9f
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,13 @@
+execution_duration_ms: 44573
+request_preview: '{"question": "Which member of a collegiate athletic conference comprising
+  sports teams from eight private institutions of higher education in the Northeastern
+  United States played their home games at Robert K. Kraft Field at Lawrence A. Wien
+  Stadium?"}'
+request_time: '2026-03-24T04:24:48.678Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-4c1533a5469977405ca0d9a079c39168
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

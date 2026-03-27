@@ -1,0 +1,20 @@
+execution_duration_ms: 31493
+request_preview: '{"question": "James T. Richardson is notably outspoken on which
+  high-profile case that was born on February 20, 1954?"}'
+request_time: '2026-03-24T03:59:42.124Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find out what high-profile
+  case associated with James T. Richardson began on February 20, 1954. This date might
+  relate to a significant event or case in his career. I will look for information
+  regarding James T. Richardson and any notable cases tied to him around that date.",
+  "tool_name_0": "search_wikipedia", "tool_args_0": {"query": "James T. Richardson
+  high-profile case February 20 1954"}, "observation_0": "Execution error in search_wikipedia:
+  \nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeple...'
+state: OK
+trace_id: tr-00a42010cf14edda4bfff4a76fa66fea
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

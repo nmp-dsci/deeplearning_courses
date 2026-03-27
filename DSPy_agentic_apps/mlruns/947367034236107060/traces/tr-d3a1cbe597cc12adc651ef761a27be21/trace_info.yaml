@@ -1,0 +1,29 @@
+execution_duration_ms: 24412
+request_preview: '{"demo_candidates": {"0": [[], ["Example({''question'': ''Who is
+  the person who\\''s autobiography was written by Gina Smith and was nicknamed \"The
+  Woz\"?'', ''answer'': ''Steve Wozniak''}) (input_keys={''question''})", "Example({''question'':
+  \"What is the same of the city that  is the second largest city municipality in
+  Italy and appeared in The 2010 Giro d''Italia?\", ''answer'': ''Verona''}) (input_keys={''question''})",
+  "Example({''question'': ''In addition to Ryan Gosling, Angourie Rice and the actor
+  born on October 11, 1977, who else starred in The Nice Guys?'', ''answer'': ''Russell
+  Crowe''}) (input_keys={''question''})", "Example({''question'': ''Long Lake is located
+  in which town?'', ''answer'': ''Harrison''}) (input_keys={''question''})"], ["Example({''augmented'':
+  True, ''question'': ''That Darn Cat! and Never a Dull Moment were both produced
+  by what studio?'', ''trajectory'': ''[[ ## thought_0 ## ]]\\nI need to find out
+  which studio produced both \"That Darn Cat!\" and \"Never a Dull Moment.\" This
+  information is lik...'
+request_time: '2026-03-24T03:57:05.672Z'
+response_preview: '{"proposed_instruction": "Using the provided fields `question`
+  and `trajectory`, generate a well-reasoned answer. Begin by assessing the context
+  of the question and your previous actions. If you believe additional information
+  is necessary to answer the question, determine whether to call the Wikipedia search
+  tool with a suitable query. Include specific details or rephrase the search terms
+  for clarity. If the Wikipedia search times out, leverage your existing knowledge
+  to formulate a response. Finally, indicate when you have enough information to produce
+  the `answer` and complete the task using the `finish` command."}'
+state: OK
+trace_id: tr-d3a1cbe597cc12adc651ef761a27be21
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,20 @@
+execution_duration_ms: 23529
+request_preview: '{"question": "what was the number of Tongan athletes that competed
+  between after 2008 in 2011 commonwealth Youth Games?"}'
+request_time: '2026-03-24T04:16:34.037Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find specific information
+  about the number of Tongan athletes who participated in the 2011 Commonwealth Youth
+  Games. This information might be available in sports archives or encyclopedic sources.
+  A search on Wikipedia could yield useful details regarding the event and the participants
+  from Tonga.", "tool_name_0": "search_wikipedia", "tool_args_0": {"query": "2011
+  Commonwealth Youth Games Tongan athletes participation"}, "observation_0": "Execution
+  error in search_wikipedia: \nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Us...'
+state: OK
+trace_id: tr-2f2767d4468b19accd0bde57df157455
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

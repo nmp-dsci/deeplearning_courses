@@ -1,0 +1,11 @@
+execution_duration_ms: 52236
+request_preview: '{"question": "Which dog originated in the Mountains of Romania,
+  the Ariege Pointer or the Carpathian Shepherd Dog?"}'
+request_time: '2026-03-24T04:17:57.127Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-2442f223d90db1fcaaa9391a2680a87b
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

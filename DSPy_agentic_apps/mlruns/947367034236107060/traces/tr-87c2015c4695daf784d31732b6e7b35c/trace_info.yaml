@@ -1,0 +1,11 @@
+execution_duration_ms: 20290
+request_preview: '{"question": "James T. Richardson is notably outspoken on which
+  high-profile case that was born on February 20, 1954?"}'
+request_time: '2026-03-24T04:23:00.807Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-87c2015c4695daf784d31732b6e7b35c
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT
