@@ -1,0 +1,12 @@
+execution_duration_ms: 38646
+request_preview: '{"question": "What animated creatures were the title characters
+  of the film which was based one of the most frequently performed plays written by
+  William Shakespeare early in his career?"}'
+request_time: '2026-03-24T04:24:55.976Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-380f89de959a6df2ba47a8e6c2815a96
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

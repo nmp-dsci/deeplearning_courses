@@ -1,0 +1,11 @@
+execution_duration_ms: 57358
+request_preview: '{"question": "Which airport Rapid City Regional Airport and Chattanooga
+  Metropolitan Airport is closer to its local city ?"}'
+request_time: '2026-03-24T04:04:32.142Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-f94088e6813a68cfbece4ad77416912f
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

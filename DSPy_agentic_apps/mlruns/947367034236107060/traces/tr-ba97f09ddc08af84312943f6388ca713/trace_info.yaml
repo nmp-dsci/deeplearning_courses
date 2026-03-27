@@ -1,0 +1,11 @@
+execution_duration_ms: 63229
+request_preview: '{"question": "Which building, Olympic Tower or Latting Observatory,
+  is no longer erect?"}'
+request_time: '2026-03-24T04:18:59.809Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-ba97f09ddc08af84312943f6388ca713
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

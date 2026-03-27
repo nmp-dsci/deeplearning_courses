@@ -1,0 +1,12 @@
+execution_duration_ms: 10849
+request_preview: '{"question": "Wing has drawn comparisons to what  American socialite
+  and amateur soprano who was known and mocked for her flamboyant performance costumes
+  "}'
+request_time: '2026-03-24T04:09:18.950Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-b458b2281c0188294677f9374bc16eee
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

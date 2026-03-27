@@ -1,0 +1,19 @@
+execution_duration_ms: 39100
+request_preview: '{"question": "Who has more letters in their middle name out of Margaret
+  Laurence and Paul Heyse?"}'
+request_time: '2026-03-24T03:48:25.837Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find the middle names of
+  both Margaret Laurence and Paul Heyse to compare the number of letters in each.
+  I''ll start by searching for Margaret Laurence''s full name and then move on to
+  Paul Heyse''s full name.", "tool_name_0": "search_wikipedia", "tool_args_0": {"query":
+  "Margaret Laurence full name"}, "observation_0": "Execution error in search_wikipedia:
+  \nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\...'
+state: OK
+trace_id: tr-d4b20bb593339558971dace5aa2567fb
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

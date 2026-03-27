@@ -1,0 +1,11 @@
+execution_duration_ms: 20128
+request_preview: '{"question": "In what city was the 50th Military Airlift Squadron''s
+  last assignment?"}'
+request_time: '2026-03-24T04:11:47.282Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-8883a1c683024f25022a85835c5836b1
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,12 @@
+execution_duration_ms: 62742
+request_preview: '{"question": "What is the name of the future head coach of the University
+  of Pittsburgh football team whom Dick Jauron replaced as head coach of the Chicago
+  Bears on January 24, 1999?"}'
+request_time: '2026-03-24T04:07:27.687Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-15c7492e0abeffb23f0d786dbba897e9
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

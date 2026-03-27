@@ -1,0 +1,25 @@
+execution_duration_ms: 19215
+request_preview: '{"demo_candidates": {"0": [[], ["Example({''question'': ''Who is
+  the person who\\''s autobiography was written by Gina Smith and was nicknamed \"The
+  Woz\"?'', ''answer'': ''Steve Wozniak''}) (input_keys={''question''})", "Example({''question'':
+  \"What is the same of the city that  is the second largest city municipality in
+  Italy and appeared in The 2010 Giro d''Italia?\", ''answer'': ''Verona''}) (input_keys={''question''})",
+  "Example({''question'': ''In addition to Ryan Gosling, Angourie Rice and the actor
+  born on October 11, 1977, who else starred in The Nice Guys?'', ''answer'': ''Russell
+  Crowe''}) (input_keys={''question''})", "Example({''question'': ''Long Lake is located
+  in which town?'', ''answer'': ''Harrison''}) (input_keys={''question''})"], ["Example({''augmented'':
+  True, ''question'': ''That Darn Cat! and Never a Dull Moment were both produced
+  by what studio?'', ''trajectory'': ''[[ ## thought_0 ## ]]\\nI need to find out
+  which studio produced both \"That Darn Cat!\" and \"Never a Dull Moment.\" This
+  information is lik...'
+request_time: '2026-03-24T03:58:10.781Z'
+response_preview: '{"proposed_instruction": "Using the knowledge provided, answer
+  the following question: \"What center did the author of ''The Strange Death of Europe''
+  found?\" Utilize your understanding of Douglas Murray and his contributions to form
+  a coherent answer."}'
+state: OK
+trace_id: tr-8b80795070f2ac6b5af34d032a71cc99
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

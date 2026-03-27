@@ -1,0 +1,11 @@
+execution_duration_ms: 39089
+request_preview: '{"question": "what song is in the movie directed by Paul Hoen based
+  on the novel \"if I had one wish\"?"}'
+request_time: '2026-03-24T04:09:32.398Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-2c21d93fcd4e8dd23078baf4d599b0b7
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,11 @@
+execution_duration_ms: 27520
+request_preview: '{"question": "What prestigious award have Bertrand Russell and Günter
+  Grass won?"}'
+request_time: '2026-03-24T04:16:27.523Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-2abea90caac30e414db147dec9a54d50
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

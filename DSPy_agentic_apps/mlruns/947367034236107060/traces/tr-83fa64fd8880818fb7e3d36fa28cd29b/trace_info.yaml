@@ -1,0 +1,18 @@
+execution_duration_ms: 40374
+request_preview: '{"question": "what song is in the movie directed by Paul Hoen based
+  on the novel \"if I had one wish\"?"}'
+request_time: '2026-03-24T04:12:27.241Z'
+response_preview: '{"trajectory": {"thought_0": "I need to identify the movie directed
+  by Paul Hoen that is based on the novel ''If I Had One Wish''. After that, I can
+  find out which song is featured in that movie.", "tool_name_0": "search_wikipedia",
+  "tool_args_0": {}, "observation_0": "Execution error in search_wikipedia: \nTraceback
+  (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/predict/react.py\",
+  line 111, in forward\n    trajectory[f\"observation_{idx}\"] = self.tools[pred.next_tool_name](**pred.next_tool_args)\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/utils/callback.py\",
+  line 343, in sync_wrapper\n    raise exception\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/utils/cal...'
+state: OK
+trace_id: tr-83fa64fd8880818fb7e3d36fa28cd29b
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,11 @@
+execution_duration_ms: 35364
+request_preview: '{"question": "In addition to the Austrian passport, what is needed
+  to gain access to 173 countries and territories?"}'
+request_time: '2026-03-24T04:23:00.776Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-bed774af232ea8fbd45cff9aca5f0176
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

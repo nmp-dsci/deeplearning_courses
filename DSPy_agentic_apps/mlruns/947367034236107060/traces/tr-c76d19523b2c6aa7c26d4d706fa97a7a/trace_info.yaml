@@ -1,0 +1,11 @@
+execution_duration_ms: 57993
+request_preview: '{"question": "When was the American actor born who played by Travis
+  Schuldt from July 5, 1999 to July 3, 2002?"}'
+request_time: '2026-03-24T04:06:18.575Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-c76d19523b2c6aa7c26d4d706fa97a7a
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

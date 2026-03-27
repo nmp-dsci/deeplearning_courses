@@ -1,0 +1,21 @@
+execution_duration_ms: 50797
+request_preview: '{"question": "Widows'' Peak stars what English actress commonly
+  known as  Dame"}'
+request_time: '2026-03-24T04:10:56.334Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find out which English
+  actress known as \"Dame\" stars in the movie \"Widows'' Peak.\" The term \"Dame\"
+  typically refers to a female title of honor in the British honours system, which
+  is usually awarded to notable figures in various fields including acting. I will
+  search for the cast of \"Widows'' Peak\" to identify the actress associated with
+  this title.", "tool_name_0": "search_wikipedia", "tool_args_0": {"query": "Widows''
+  Peak cast"}, "observation_0": "Execution error in search_wikipedia: \nTraceback
+  (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise ...'
+state: OK
+trace_id: tr-4284e58dee001167855e8f09f26b730d
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

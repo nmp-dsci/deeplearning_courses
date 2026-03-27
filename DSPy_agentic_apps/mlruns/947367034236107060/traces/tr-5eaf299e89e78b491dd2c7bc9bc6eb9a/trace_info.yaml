@@ -1,0 +1,11 @@
+execution_duration_ms: 92248
+request_preview: '{"question": "Which director; Joris Ivens and Lew Landers, was born
+  in November?"}'
+request_time: '2026-03-24T04:14:40.454Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-5eaf299e89e78b491dd2c7bc9bc6eb9a
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,11 @@
+execution_duration_ms: 54778
+request_preview: '{"question": "What role is Edward Timpson from Crewe most associated
+  with?"}'
+request_time: '2026-03-24T04:23:00.809Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-f7f5dc19f79488c9488a83e95a159019
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

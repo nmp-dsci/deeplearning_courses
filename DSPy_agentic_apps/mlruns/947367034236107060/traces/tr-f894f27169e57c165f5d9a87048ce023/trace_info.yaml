@@ -1,0 +1,11 @@
+execution_duration_ms: 36903
+request_preview: '{"question": "Who was the first love interest for J. K. Rowling''s
+  orphan character who attends Hogwarts School of Witchcraft and Wizardry?"}'
+request_time: '2026-03-24T04:23:00.776Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-f894f27169e57c165f5d9a87048ce023
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

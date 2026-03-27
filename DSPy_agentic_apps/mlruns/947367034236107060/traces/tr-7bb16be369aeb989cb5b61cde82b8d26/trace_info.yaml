@@ -1,0 +1,12 @@
+execution_duration_ms: 50227
+request_preview: '{"question": "Change is Now: Renewing America''s Promise includes
+  previously released tracks from an American hip hop recording artist who debuted
+  in 1992 with what album?"}'
+request_time: '2026-03-24T04:08:37.753Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-7bb16be369aeb989cb5b61cde82b8d26
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,11 @@
+execution_duration_ms: 47408
+request_preview: '{"question": "Which of Adelaide Metro''s stations is located at
+  the base of the Mount Lofty Ranges?"}'
+request_time: '2026-03-24T04:10:01.447Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-af496b8d8ad6fe25074fc6cd2c4c683d
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

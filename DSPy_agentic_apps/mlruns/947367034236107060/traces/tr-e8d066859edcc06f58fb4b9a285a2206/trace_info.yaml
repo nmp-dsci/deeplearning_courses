@@ -1,0 +1,18 @@
+execution_duration_ms: 38128
+request_preview: '{"question": "Which artist started recording/performing earlier
+  David Donato or Moya Brennan?"}'
+request_time: '2026-03-24T04:12:27.244Z'
+response_preview: '{"trajectory": {"thought_0": "I need to determine the debut dates
+  of both David Donato and Moya Brennan to see who started recording or performing
+  earlier. I''ll start by searching for their backgrounds and career timelines.",
+  "tool_name_0": "search_wikipedia", "tool_args_0": {}, "observation_0": "Execution
+  error in search_wikipedia: \nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/predict/react.py\",
+  line 111, in forward\n    trajectory[f\"observation_{idx}\"] = self.tools[pred.next_tool_name](**pred.next_tool_args)\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/utils/callback.py\",
+  line 343, in sync_wrapper\n    raise exception\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.1...'
+state: OK
+trace_id: tr-e8d066859edcc06f58fb4b9a285a2206
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,21 @@
+execution_duration_ms: 44995
+request_preview: '{"question": "What movie did \"the king of cool\" play in with Bud
+  Ekins as his stunt double?"}'
+request_time: '2026-03-24T04:11:05.561Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find out which movie \"the
+  king of cool\" starred in alongside Bud Ekins as his stunt double. \"The king of
+  cool\" is often a reference to Steve McQueen, a famous actor known for his cool
+  persona and roles in action films. I will search for information related to Steve
+  McQueen and his films, specifically focusing on those featuring Bud Ekins.", "tool_name_0":
+  "search_wikipedia", "tool_args_0": {"query": "Steve McQueen Bud Ekins movie"}, "observation_0":
+  "Execution error in search_wikipedia: \nTraceback (most recent call last):\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise e...'
+state: OK
+trace_id: tr-bc09b97dc0836999432ac2513388ec92
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

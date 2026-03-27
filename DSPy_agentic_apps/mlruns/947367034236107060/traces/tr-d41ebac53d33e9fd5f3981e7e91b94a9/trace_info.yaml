@@ -1,0 +1,11 @@
+execution_duration_ms: 76100
+request_preview: '{"question": "What haircut was popularized by the actress who starred
+  in the 1928 film A Girl in Every Port?"}'
+request_time: '2026-03-24T04:15:17.113Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-d41ebac53d33e9fd5f3981e7e91b94a9
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

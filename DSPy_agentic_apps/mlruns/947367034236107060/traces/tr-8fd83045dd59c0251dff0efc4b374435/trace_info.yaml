@@ -1,0 +1,11 @@
+execution_duration_ms: 54172
+request_preview: '{"question": "Which band from East London had Steve Marriott as
+  a band member?"}'
+request_time: '2026-03-24T04:12:06.225Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-8fd83045dd59c0251dff0efc4b374435
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

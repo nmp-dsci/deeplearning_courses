@@ -1,0 +1,20 @@
+execution_duration_ms: 37083
+request_preview: '{"question": "Which band from East London had Steve Marriott as
+  a band member?"}'
+request_time: '2026-03-24T03:59:59.456Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find out which band from
+  East London Steve Marriott was a part of. It may be useful to perform a search to
+  gather this information, specifically looking for bands associated with him.", "tool_name_0":
+  "search_wikipedia", "tool_args_0": {"query": "Steve Marriott band East London"},
+  "observation_0": "Execution error in search_wikipedia: \nTraceback (most recent
+  call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 73, in crea...'
+state: OK
+trace_id: tr-bf2860218f729853e02f5701d33b1dad
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

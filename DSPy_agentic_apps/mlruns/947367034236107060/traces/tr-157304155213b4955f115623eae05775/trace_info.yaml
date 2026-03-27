@@ -1,0 +1,11 @@
+execution_duration_ms: 81018
+request_preview: '{"question": "what was the number of Tongan athletes that competed
+  between after 2008 in 2011 commonwealth Youth Games?"}'
+request_time: '2026-03-24T04:08:54.300Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-157304155213b4955f115623eae05775
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

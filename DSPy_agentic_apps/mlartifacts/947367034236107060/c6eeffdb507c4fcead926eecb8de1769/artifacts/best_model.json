@@ -1,0 +1,110 @@
+{
+  "react": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "What sport does 1989–90 Sacramento Kings season and Rodney McCray have in common?",
+        "trajectory": "",
+        "next_thought": "I need to identify the sport played by both the 1989–90 Sacramento Kings season and Rodney McCray. Given that the Sacramento Kings are a professional basketball team in the NBA, it's likely that Rodney McCray also played basketball. However, I will confirm whether Rodney McCray is indeed a basketball player and look for any relevant details regarding his career and the Kings season.",
+        "next_tool_name": "search_wikipedia",
+        "next_tool_args": {
+          "query": "Rodney McCray"
+        }
+      },
+      {
+        "question": "In addition to Ryan Gosling, Angourie Rice and the actor born on October 11, 1977, who else starred in The Nice Guys?",
+        "answer": "Russell Crowe"
+      },
+      {
+        "question": "Which publication has been published by a greater number of groups, House Beautiful or Smithsonian?",
+        "answer": "House Beautiful"
+      },
+      {
+        "question": "In what year was the creator of the character that appeared in a series of films directed by Stephen Norrington, Guillermo del Toro and Goyer born?",
+        "answer": "1926"
+      }
+    ],
+    "signature": {
+      "instructions": "Given the fields `question`, produce the fields `answer`.\n\nYou are an Agent. In each episode, you will be given the fields `question` as input. And you can see your past trajectory so far.\nYour goal is to use one or more of the supplied tools to collect any necessary information for producing `answer`.\n\nTo do this, you will interleave next_thought, next_tool_name, and next_tool_args in each turn, and also when finishing the task.\nAfter each tool call, you receive a resulting observation, which gets appended to your trajectory.\n\nWhen writing next_thought, you may reason about the current situation and plan for future steps.\nWhen selecting the next_tool_name and its next_tool_args, the tool must be one of:\n\n(1) search_wikipedia. It takes arguments {'query': {'type': 'string'}}.\n(2) finish, whose description is <desc>Marks the task as complete. That is, signals that all information for producing the outputs, i.e. `answer`, are now available to be extracted.</desc>. It takes arguments {}.\nWhen providing `next_tool_args`, the value inside the field must be in JSON format",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Trajectory:",
+          "description": "${trajectory}"
+        },
+        {
+          "prefix": "Next Thought:",
+          "description": "${next_thought}"
+        },
+        {
+          "prefix": "Next Tool Name:",
+          "description": "${next_tool_name}"
+        },
+        {
+          "prefix": "Next Tool Args:",
+          "description": "${next_tool_args}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "extract.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "What sport does 1989–90 Sacramento Kings season and Rodney McCray have in common?",
+        "trajectory": "[[ ## thought_0 ## ]]\nI need to identify the sport played by both the 1989–90 Sacramento Kings season and Rodney McCray. Given that the Sacramento Kings are a professional basketball team in the NBA, it's likely that Rodney McCray also played basketball. However, I will confirm whether Rodney McCray is indeed a basketball player and look for any relevant details regarding his career and the Kings season.\n\n[[ ## tool_name_0 ## ]]\nsearch_wikipedia\n\n[[ ## tool_args_0 ## ]]\n{\"query\": \"Rodney McCray\"}\n\n[[ ## observation_0 ## ]]\nExecution error in search_wikipedia: \nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\", line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\", line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\", line 73, in create_connection\n    sock.connect(sa)\nTimeoutError: timed out\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 787, in urlopen\n    response = self._make_request(\n               ^^^^^^^^^^^^^^^^^^^\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 493, in _make_request\n    conn.request(\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\", line 500, in request\n    self.endheaders()\n  File \"/Users/nathanphillips/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/http/client.py\", line 1333, in endheaders\n    self._send_output(message_body, encode_chunked=encode_chunked)\n  File \"/Users/nathanphillips/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/http/client.py\", line 1093, in _send_output\n    self.send(msg)\nurllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='20.102.90.50', port=2017) at 0x14c1317c0>, 'Connection to 20.102.90.50 timed out. (connect timeout=10)')\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/requests/adapters.py\", line 644, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 841, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/retry.py\", line 535, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='20.102.90.50', port=2017): Max retries exceeded with url: /wiki17_abstracts?query=Rodney+McCray&k=3 (Caused by ConnectTimeoutError(<HTTPConnection(host='20.102.90.50', port=2017) at 0x14c1317c0>, 'Connection to 20.102.90.50 timed out. (connect timeout=10)'))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/predict/react.py\", line 111, in forward\n    trajectory[f\"observation_{idx}\"] = self.tools[pred.next_tool_name](**pred.next_tool_args)\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/utils/callback.py\", line 343, in sync_wrapper\n    raise exception\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/utils/callback.py\", line 339, in sync_wrapper\n    results = fn(instance, *args, **kwargs)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/adapters/types/tool.py\", line 179, in __call__\n    result = self.func(**parsed_kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<stdin>\", line 2, in search_wikipedia\nrequests.exceptions.ConnectTimeout: HTTPConnectionPool(host='20.102.90.50', port=2017): Max retries exceeded with url: /wiki17_abstracts?query=Rodney+McCray&k=3 (Caused by ConnectTimeoutError(<HTTPConnection(host='20.102.90.50', port=2017) at 0x14c1317c0>, 'Connection to 20.102.90.50 timed out. (connect timeout=10)'))\n\n[[ ## thought_1 ## ]]\nSince the first attempt to gather information about Rodney McCray from Wikipedia timed out, I will attempt a different strategy by searching for the relationship between Rodney McCray and the 1989-90 Sacramento Kings season. I believe both are related to basketball, but I want to ensure I have accurate details about McCray’s career and connection to that particular Kings season.\n\n[[ ## tool_name_1 ## ]]\nsearch_wikipedia\n\n[[ ## tool_args_1 ## ]]\n{\"query\": \"1989-90 Sacramento Kings season Rodney McCray\"}\n\n[[ ## observation_1 ## ]]\nExecution error in search_wikipedia: \nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\", line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\", line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\", line 73, in create_connection\n    sock.connect(sa)\nTimeoutError: timed out\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 787, in urlopen\n    response = self._make_request(\n               ^^^^^^^^^^^^^^^^^^^\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 493, in _make_request\n    conn.request(\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\", line 500, in request\n    self.endheaders()\n  File \"/Users/nathanphillips/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/http/client.py\", line 1333, in endheaders\n    self._send_output(message_body, encode_chunked=encode_chunked)\n  File \"/Users/nathanphillips/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/http/client.py\", line 1093, in _send_output\n    self.send(msg)\nurllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='20.102.90.50', port=2017) at 0x14c15dcd0>, 'Connection to 20.102.90.50 timed out. (connect timeout=10)')\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/requests/adapters.py\", line 644, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 841, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/retry.py\", line 535, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='20.102.90.50', port=2017): Max retries exceeded with url: /wiki17_abstracts?query=1989-90+Sacramento+Kings+season+Rodney+McCray&k=3 (Caused by ConnectTimeoutError(<HTTPConnection(host='20.102.90.50', port=2017) at 0x14c15dcd0>, 'Connection to 20.102.90.50 timed out. (connect timeout=10)'))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/predict/react.py\", line 111, in forward\n    trajectory[f\"observation_{idx}\"] = self.tools[pred.next_tool_name](**pred.next_tool_args)\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/utils/callback.py\", line 343, in sync_wrapper\n    raise exception\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/utils/callback.py\", line 339, in sync_wrapper\n    results = fn(instance, *args, **kwargs)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/adapters/types/tool.py\", line 179, in __call__\n    result = self.func(**parsed_kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<stdin>\", line 2, in search_wikipedia\nrequests.exceptions.ConnectTimeout: HTTPConnectionPool(host='20.102.90.50', port=2017): Max retries exceeded with url: /wiki17_abstracts?query=1989-90+Sacramento+Kings+season+Rodney+McCray&k=3 (Caused by ConnectTimeoutError(<HTTPConnection(host='20.102.90.50', port=2017) at 0x14c15dcd0>, 'Connection to 20.102.90.50 timed out. (connect timeout=10)'))\n\n[[ ## thought_2 ## ]]\nIt seems that I've encountered a persistent issue with retrieving information via the Wikipedia search tool. Since the expected information is related to both the 1989–90 Sacramento Kings season and Rodney McCray, I'll finalize my assumption that they are both connected to basketball. Given the evidence at hand, I believe it's reasonable to conclude that they both pertain to the sport of basketball.\n\n[[ ## tool_name_2 ## ]]\nfinish\n\n[[ ## tool_args_2 ## ]]\n{}\n\n[[ ## observation_2 ## ]]\nCompleted.",
+        "reasoning": "Both the 1989–90 Sacramento Kings season and Rodney McCray are associated with basketball. The Sacramento Kings are a professional basketball team in the NBA, and Rodney McCray is a former professional basketball player who played in the NBA during that time period. Despite the challenges in retrieving detailed information, it's clear that both refer to the sport of basketball.",
+        "answer": "Basketball"
+      },
+      {
+        "question": "In addition to Ryan Gosling, Angourie Rice and the actor born on October 11, 1977, who else starred in The Nice Guys?",
+        "answer": "Russell Crowe"
+      },
+      {
+        "question": "Which publication has been published by a greater number of groups, House Beautiful or Smithsonian?",
+        "answer": "House Beautiful"
+      },
+      {
+        "question": "In what year was the creator of the character that appeared in a series of films directed by Stephen Norrington, Guillermo del Toro and Goyer born?",
+        "answer": "1926"
+      }
+    ],
+    "signature": {
+      "instructions": "Given the fields `question`, produce the fields `answer`.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Trajectory:",
+          "description": "${trajectory}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "${answer}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12",
+      "dspy": "3.1.3",
+      "cloudpickle": "3.1"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+execution_duration_ms: 38350
+request_preview: '{"question": "What is the name of the TV station in Hudson County,
+  New Jersey, where Van Hackett worked?"}'
+request_time: '2026-03-24T04:24:48.156Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-2bbf843b15664224dbde93b74d0cf391
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

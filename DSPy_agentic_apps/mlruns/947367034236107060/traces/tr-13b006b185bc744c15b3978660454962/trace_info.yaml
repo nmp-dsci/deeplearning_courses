@@ -1,0 +1,19 @@
+execution_duration_ms: 29812
+request_preview: '{"question": "Which genre of Italian film was the first to use CGI?"}'
+request_time: '2026-03-24T03:58:59.136Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find information regarding
+  the specific genre of Italian film that was the earliest to incorporate CGI technology.
+  This might involve historical context about CGI usage in Italian cinema.", "tool_name_0":
+  "search_wikipedia", "tool_args_0": {"query": "first Italian film genre to use CGI"},
+  "observation_0": "Execution error in search_wikipedia: \nTraceback (most recent
+  call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 73,...'
+state: OK
+trace_id: tr-13b006b185bc744c15b3978660454962
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

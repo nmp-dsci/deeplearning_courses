@@ -1,0 +1,11 @@
+execution_duration_ms: 59186
+request_preview: '{"question": "How large is this city in North Rhine-Westphalia as
+  compared to other cities in Germany from which the Krupp family comes?"}'
+request_time: '2026-03-24T04:00:43.297Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-fbc61c59e6e6236e96a3c8e1182137d7
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,11 @@
+execution_duration_ms: 65882
+request_preview: '{"question": "George Keith was probably the last Earl Marishal at
+  what ruined motte and bailey castle in Aberdeenshire, Scotland?"}'
+request_time: '2026-03-24T04:04:04.880Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-db3ca016ea4692162a6abb5849d1de2d
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

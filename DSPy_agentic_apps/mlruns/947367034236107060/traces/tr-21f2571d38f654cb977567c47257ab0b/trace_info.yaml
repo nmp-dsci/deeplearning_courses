@@ -1,0 +1,11 @@
+execution_duration_ms: 10590
+request_preview: '{"question": "Which has more people, Tumen, Jilin or Xiangcheng
+  City?"}'
+request_time: '2026-03-24T04:13:04.688Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-21f2571d38f654cb977567c47257ab0b
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

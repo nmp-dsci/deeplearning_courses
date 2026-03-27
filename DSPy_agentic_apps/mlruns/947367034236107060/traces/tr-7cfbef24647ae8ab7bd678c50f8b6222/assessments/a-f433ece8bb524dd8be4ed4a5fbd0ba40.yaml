@@ -1,0 +1,11 @@
+assessment_id: a-f433ece8bb524dd8be4ed4a5fbd0ba40
+assessment_name: answer_exact_match
+create_time: '2026-03-24T04:05:54.877Z'
+feedback:
+  value: false
+last_update_time: '2026-03-24T04:05:54.877Z'
+source:
+  source_id: default
+  source_type: CODE
+trace_id: tr-7cfbef24647ae8ab7bd678c50f8b6222
+valid: true

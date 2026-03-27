@@ -1,0 +1,22 @@
+execution_duration_ms: 34498
+request_preview: '{"question": "What animated creatures were the title characters
+  of the film which was based one of the most frequently performed plays written by
+  William Shakespeare early in his career?"}'
+request_time: '2026-03-24T04:09:28.940Z'
+response_preview: '{"trajectory": {"thought_0": "The question is asking about an animated
+  film based on a frequently performed play by Shakespeare. The most commonly performed
+  early plays by Shakespeare include \"A Midsummer Night''s Dream\" and \"Romeo and
+  Juliet.\" \"A Midsummer Night''s Dream\" has had animated adaptations, so I will
+  investigate if there was a film featuring animated creatures based on it. I need
+  to search for animated films related to Shakespeare''s works.", "tool_name_0": "search_wikipedia",
+  "tool_args_0": {"query": "animated film based on A Midsummer Night''s Dream"}, "observation_0":
+  "Execution error in search_wikipedia: \nTraceback (most recent call last):\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/pyt...'
+state: OK
+trace_id: tr-b45a63f4ca715077408c8a2fa036f9f8
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

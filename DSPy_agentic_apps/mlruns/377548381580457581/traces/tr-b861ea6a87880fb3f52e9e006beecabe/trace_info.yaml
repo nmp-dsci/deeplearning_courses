@@ -1,0 +1,23 @@
+execution_duration_ms: 27989
+request_preview: '{"user_request": "please help me book a flight from SFO to JFK on
+  09/01/2025, my name is Adam"}'
+request_time: '2026-03-24T02:11:00.004Z'
+response_preview: '{"trajectory": {"thought_0": "I need to fetch flight information
+  from San Francisco (SFO) to New York (JFK) on September 1, 2025, in order to find
+  available flights for Adam.", "tool_name_0": "fetch_flight_info", "tool_args_0":
+  {"date": {"year": 2025, "month": 9, "day": 1, "hour": 0}, "origin": "SFO", "destination":
+  "JFK"}, "observation_0": [{"flight_id": "DA123", "date_time": {"year": 2025, "month":
+  9, "day": 1, "hour": 1}, "origin": "SFO", "destination": "JFK", "duration": 3.0,
+  "price": 200.0}, {"flight_id": "DA125", "date_time": {"year": 2025, "month": 9,
+  "day": 1, "hour": 7}, "origin": "SFO", "destination": "JFK", "duration": 9.0, "price":
+  500.0}], "thought_1": "I have received flight information for two flights from SFO
+  to JFK on September 1, 2025. I need to select the best flight based on price and
+  duration for Adam. The first flight (DA123) has a duration of 3 hours and costs
+  $200, while the second flight (DA125) has a duration of 9 hours and costs $500.
+  I will pick the first...'
+state: OK
+trace_id: tr-b861ea6a87880fb3f52e9e006beecabe
+trace_location:
+  mlflow_experiment:
+    experiment_id: '377548381580457581'
+  type: MLFLOW_EXPERIMENT

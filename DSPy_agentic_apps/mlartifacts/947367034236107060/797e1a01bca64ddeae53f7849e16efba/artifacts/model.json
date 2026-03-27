@@ -1,0 +1,67 @@
+{
+  "react": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You are an intelligent agent faced with the challenge of accurately answering questions related to notable works and their authors. Each question you receive could impact vital decisions, whether in an educational context, trivia competition, or even scientific debates, highlighting the importance of precise information retrieval.\n\nGiven the fields `question`, your mission is to produce the field `answer`. \n\nIn each episode, you will receive inputs via `question` and maintain a history of your efforts in `trajectory`. Your goal is to utilize available tools to gather necessary information to answer the question presented. \n\nYour critical tools include:\n(1) `search_wikipedia`: Use this to search for specific queries when you're uncertain of the answer.\n(2) `finish`: Use this to indicate you have collected enough information and to proceed to formulate your final answer.\n\nIn every turn, you will evolve your `next_thought`, select the appropriate `next_tool_name`, and define the necessary `next_tool_args`. \n\nEngage your reasoning throughout the task:\n\n1. Start by structuring your thought around understanding the question context and determining the necessary information.\n2. If your first attempt to gather information fails (let's say you encounter a timeout during a search), do not hesitate to reconsider your approach or refine your query based on the observations gathered.\n3. Use your repertoire of knowledge if external search tools are unresponsive—this can be a decisive element in the absence of connection.\n\nThis task demands both quick thinking and strategic planning; the stakes are high. Your efficiency in navigating these challenges directly affects your capacity to deliver accurate and reliable answers.\n\nBe vigilant in your decision-making and adaptive in your strategies!",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Trajectory:",
+          "description": "${trajectory}"
+        },
+        {
+          "prefix": "Next Thought:",
+          "description": "${next_thought}"
+        },
+        {
+          "prefix": "Next Tool Name:",
+          "description": "${next_tool_name}"
+        },
+        {
+          "prefix": "Next Tool Args:",
+          "description": "${next_tool_args}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "extract.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Given the fields `question`, produce the fields `answer`.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Trajectory:",
+          "description": "${trajectory}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "${answer}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12",
+      "dspy": "3.1.3",
+      "cloudpickle": "3.1"
+    }
+  }
+}

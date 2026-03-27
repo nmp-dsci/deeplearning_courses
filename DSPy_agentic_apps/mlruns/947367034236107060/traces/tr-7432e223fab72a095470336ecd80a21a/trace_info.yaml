@@ -1,0 +1,20 @@
+execution_duration_ms: 52835
+request_preview: '{"question": "in the 1975–76, Seattle SuperSonics lost to a team
+  based in which US state ?"}'
+request_time: '2026-03-24T04:11:10.243Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find out the details of
+  the 1975–76 Seattle SuperSonics season, specifically focusing on their playoff performance
+  to determine which team they lost to and the state that team is based in.", "tool_name_0":
+  "search_wikipedia", "tool_args_0": {"query": "1975–76 Seattle SuperSonics"}, "observation_0":
+  "Execution error in search_wikipedia: \nTraceback (most recent call last):\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 73, in cre...'
+state: OK
+trace_id: tr-7432e223fab72a095470336ecd80a21a
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

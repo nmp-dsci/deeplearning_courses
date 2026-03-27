@@ -1,0 +1,11 @@
+execution_duration_ms: 10973
+request_preview: '{"question": "What was the role played in \"Sweet Charity\" by the
+  star of Dear Diary?"}'
+request_time: '2026-03-24T04:08:02.058Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-23db47d682048487ba3af33c2b1f7b0a
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

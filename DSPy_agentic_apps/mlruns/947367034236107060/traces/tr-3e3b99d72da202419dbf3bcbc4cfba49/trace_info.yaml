@@ -1,0 +1,11 @@
+execution_duration_ms: 10942
+request_preview: '{"question": "When was the tour of Thea Gilmore''s EP that included
+  a traditional Scottish song?"}'
+request_time: '2026-03-24T04:07:16.620Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-3e3b99d72da202419dbf3bcbc4cfba49
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,11 @@
+execution_duration_ms: 22331
+request_preview: '{"question": "What magazine was established in 1988 by Frank Thomas
+  and Keith White and has been associated with the Dirtbag Left?"}'
+request_time: '2026-03-24T04:24:55.911Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-db78fccaf8909494013a49ed4317d314
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

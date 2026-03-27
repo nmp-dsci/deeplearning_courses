@@ -1,0 +1,11 @@
+execution_duration_ms: 23336
+request_preview: '{"question": "What countries utilize the ECTS grading scale that
+  Norway adopted?"}'
+request_time: '2026-03-24T04:09:05.812Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-6d199b7e15490d545f178627080e4883
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

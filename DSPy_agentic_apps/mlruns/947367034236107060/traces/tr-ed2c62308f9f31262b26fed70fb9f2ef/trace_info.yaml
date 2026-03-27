@@ -1,0 +1,11 @@
+execution_duration_ms: 86380
+request_preview: '{"question": "ShopBack is affiliated with which Indian electronic
+  payment brand?"}'
+request_time: '2026-03-24T04:04:04.874Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-ed2c62308f9f31262b26fed70fb9f2ef
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,11 @@
+execution_duration_ms: 26478
+request_preview: '{"question": "Which saxophone hit was both covered by Chet Atkins
+  and used as Benny Hill''s signature tune?"}'
+request_time: '2026-03-24T04:12:08.533Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-98d86b0104fdaa87be97f36554ba41f5
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

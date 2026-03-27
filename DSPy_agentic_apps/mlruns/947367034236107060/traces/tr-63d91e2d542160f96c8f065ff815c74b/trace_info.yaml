@@ -1,0 +1,11 @@
+execution_duration_ms: 47031
+request_preview: '{"question": "Which artist started recording/performing earlier
+  David Donato or Moya Brennan?"}'
+request_time: '2026-03-24T04:08:37.748Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-63d91e2d542160f96c8f065ff815c74b
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

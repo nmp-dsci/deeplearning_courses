@@ -1,0 +1,11 @@
+execution_duration_ms: 34638
+request_preview: '{"question": "the Central Reserve Police Force, which has been accused
+  of human rights abuses, operates under the aegis of what Government of India agency?"}'
+request_time: '2026-03-24T04:05:29.519Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-ad187caa70f841e96cc84ebf1273def4
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

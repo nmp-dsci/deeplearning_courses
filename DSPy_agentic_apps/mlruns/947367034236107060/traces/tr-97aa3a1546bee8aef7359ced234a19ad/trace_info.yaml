@@ -1,0 +1,11 @@
+execution_duration_ms: 10971
+request_preview: '{"question": "what is the largest university press in the world
+  that published Oxford Companions?"}'
+request_time: '2026-03-24T04:07:16.621Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-97aa3a1546bee8aef7359ced234a19ad
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

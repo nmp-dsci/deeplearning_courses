@@ -1,0 +1,11 @@
+execution_duration_ms: 18909
+request_preview: '{"question": "whos family had their own reality tv show. Robert
+  Kardashian or Manvel Gamburyan?"}'
+request_time: '2026-03-24T04:11:47.287Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-bd8afc03604a429da834fd08488bfb8f
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

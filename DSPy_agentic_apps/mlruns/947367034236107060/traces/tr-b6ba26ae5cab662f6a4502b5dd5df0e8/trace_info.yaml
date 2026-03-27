@@ -1,0 +1,11 @@
+execution_duration_ms: 53804
+request_preview: '{"question": "What is the newer title of the game published by Sega
+  that also describes the job title of Dave Rogers?"}'
+request_time: '2026-03-24T04:05:16.063Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-b6ba26ae5cab662f6a4502b5dd5df0e8
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

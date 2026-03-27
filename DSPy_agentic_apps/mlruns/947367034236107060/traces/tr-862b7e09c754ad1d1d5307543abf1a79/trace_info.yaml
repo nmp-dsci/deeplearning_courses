@@ -1,0 +1,11 @@
+execution_duration_ms: 61076
+request_preview: '{"question": "What profession does Pyotr Ilyich Tchaikovsky and
+  Gaetano Donizetti have in common?"}'
+request_time: '2026-03-24T04:04:04.873Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-862b7e09c754ad1d1d5307543abf1a79
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

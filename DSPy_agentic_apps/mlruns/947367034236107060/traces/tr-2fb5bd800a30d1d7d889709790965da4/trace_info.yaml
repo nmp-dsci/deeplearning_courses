@@ -1,0 +1,11 @@
+execution_duration_ms: 11012
+request_preview: '{"question": "What''s the present day English county of Skelton-in-Cleveland,
+  recorded in the Domesday Book and site of a 12th-century castle?"}'
+request_time: '2026-03-24T04:07:18.615Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-2fb5bd800a30d1d7d889709790965da4
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

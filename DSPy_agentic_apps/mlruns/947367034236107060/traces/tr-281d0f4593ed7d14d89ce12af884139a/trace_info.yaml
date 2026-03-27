@@ -1,0 +1,21 @@
+execution_duration_ms: 51157
+request_preview: '{"question": "What is the name of this Irish singer-songwriter,
+  musician, venture capitalist, businessman, and philanthropist, who wrote \"Love
+  Is Blindness\" on the piano?"}'
+request_time: '2026-03-24T04:06:18.577Z'
+response_preview: '{"trajectory": {"thought_0": "The description provides several
+  characteristics of an Irish singer-songwriter who has written a song called \"Love
+  Is Blindness.\" This song is known to be by Bono from the band U2. However, to confirm
+  this fully, I will search for more details to ensure the answer is accurate.", "tool_name_0":
+  "search_wikipedia", "tool_args_0": {"query": "Bono Love Is Blindness"}, "observation_0":
+  "Execution error in search_wikipedia: \nTraceback (most recent call last):\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.ven...'
+state: OK
+trace_id: tr-281d0f4593ed7d14d89ce12af884139a
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,93 @@
+[[ ## thought_0 ## ]]
+I need to determine whether Liverpool is located in northern or southern England. A quick search should provide this information.
+
+[[ ## tool_name_0 ## ]]
+search_wikipedia
+
+[[ ## tool_args_0 ## ]]
+{"query": "Liverpool England location"}
+
+[[ ## observation_0 ## ]]
+Execution error in search_wikipedia: 
+Traceback (most recent call last):
+  File "/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 500, in request
+    self.endheaders()
+  File "/Users/nathanphillips/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/http/client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Users/nathanphillips/.local/share/uv/python/cpython-3.12.12-macos-aarch64-none/lib/python3.12/http/client.py", line 1093, in _send_output
+    self.send(msg)
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='20.102.90.50', port=2017) at 0x14c037800>, 'Connection to 20.102.90.50 timed out. (connect timeout=10)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='20.102.90.50', port=2017): Max retries exceeded with url: /wiki17_abstracts?query=Liverpool+England+location&k=3 (Caused by ConnectTimeoutError(<HTTPConnection(host='20.102.90.50', port=2017) at 0x14c037800>, 'Connection to 20.102.90.50 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/predict/react.py", line 111, in forward
+    trajectory[f"observation_{idx}"] = self.tools[pred.next_tool_name](**pred.next_tool_args)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/utils/callback.py", line 343, in sync_wrapper
+    raise exception
+  File "/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/utils/callback.py", line 339, in sync_wrapper
+    results = fn(instance, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/dspy/adapters/types/tool.py", line 179, in __call__
+    result = self.func(**parsed_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<stdin>", line 2, in search_wikipedia
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='20.102.90.50', port=2017): Max retries exceeded with url: /wiki17_abstracts?query=Liverpool+England+location&k=3 (Caused by ConnectTimeoutError(<HTTPConnection(host='20.102.90.50', port=2017) at 0x14c037800>, 'Connection to 20.102.90.50 timed out. (connect timeout=10)'))
+
+[[ ## thought_1 ## ]]
+Since the attempt to search on Wikipedia timed out, I will try again to find out if Liverpool is in northern or southern England.
+
+[[ ## tool_name_1 ## ]]
+search_wikipedia
+
+[[ ## tool_args_1 ## ]]
+{"query": "Liverpool England location"}
+
+[[ ## observation_1 ## ]]
+Execution error in search_wikipedia: 
+Traceback (most recent call last):
+  File "/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/nathanphillips/git/dee

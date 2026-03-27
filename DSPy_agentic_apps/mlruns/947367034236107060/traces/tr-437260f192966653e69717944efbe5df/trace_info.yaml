@@ -1,0 +1,19 @@
+execution_duration_ms: 51642
+request_preview: '{"question": "Jay Simon is best known for her role as a flight attendant
+  in a movie directed by which director ?"}'
+request_time: '2026-03-24T04:09:53.550Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find out more about Jay
+  Simon and the movie in which she played a flight attendant, as well as the director
+  of that movie. I will search for her filmography and notable roles on Wikipedia.",
+  "tool_name_0": "search_wikipedia", "tool_args_0": {"query": "Jay Simon filmography,
+  Jay Simon flight attendant movie"}, "observation_0": "Execution error in search_wikipedia:
+  \nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/conn...'
+state: OK
+trace_id: tr-437260f192966653e69717944efbe5df
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

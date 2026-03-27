@@ -1,0 +1,11 @@
+execution_duration_ms: 53356
+request_preview: '{"question": "The 1925 Saint Mary''s Gaels football team represented
+  what private, coeducational college in Moraga, California?"}'
+request_time: '2026-03-24T04:25:13.989Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-d2e5fd443be41eb14a160efb76758b15
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

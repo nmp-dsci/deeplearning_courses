@@ -1,0 +1,23 @@
+execution_duration_ms: 28938
+request_preview: '{"question": "Which member of a collegiate athletic conference comprising
+  sports teams from eight private institutions of higher education in the Northeastern
+  United States played their home games at Robert K. Kraft Field at Lawrence A. Wien
+  Stadium?"}'
+request_time: '2026-03-24T03:58:30.172Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find out which collegiate
+  athletic conference consists of eight private institutions in the Northeastern United
+  States and which member plays their home games at Robert K. Kraft Field at Lawrence
+  A. Wien Stadium. This may involve looking up the conference and its members or directly
+  finding the information about the stadium.", "tool_name_0": "search_wikipedia",
+  "tool_args_0": {"query": "Robert K. Kraft Field at Lawrence A. Wien Stadium collegiate
+  athletic conference member"}, "observation_0": "Execution error in search_wikipedia:
+  \nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  li...'
+state: OK
+trace_id: tr-522c82727ceb0ca8c37d1c1c32b32a7e
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,20 @@
+execution_duration_ms: 40554
+request_preview: '{"question": "Which artist started recording/performing earlier
+  David Donato or Moya Brennan?"}'
+request_time: '2026-03-24T04:06:09.425Z'
+response_preview: '{"trajectory": {"thought_0": "To determine which artist started
+  recording or performing earlier between David Donato and Moya Brennan, I need to
+  gather information about the careers of both artists, specifically the years they
+  began their recording or performing careers. I will first look up David Donato to
+  find relevant details about his career timeline.", "tool_name_0": "search_wikipedia",
+  "tool_args_0": {"query": "David Donato"}, "observation_0": "Execution error in search_wikipedia:
+  \nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deepl...'
+state: OK
+trace_id: tr-df8b99ad5237da83fbc5bf733c1d2909
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

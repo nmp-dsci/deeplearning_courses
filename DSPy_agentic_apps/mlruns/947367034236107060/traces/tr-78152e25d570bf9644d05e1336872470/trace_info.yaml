@@ -1,0 +1,11 @@
+execution_duration_ms: 86469
+request_preview: '{"question": "Which movie in a collaboration between Malcom X and
+  Alex Haley also was nominated for an Oscar"}'
+request_time: '2026-03-24T04:04:04.871Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-78152e25d570bf9644d05e1336872470
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,11 @@
+execution_duration_ms: 52414
+request_preview: '{"question": "Auguste Charlois who discovered 317 Roxane named for
+  Roxana from what area"}'
+request_time: '2026-03-24T04:13:47.980Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-039bcfb1b589b4847336251382854f0c
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

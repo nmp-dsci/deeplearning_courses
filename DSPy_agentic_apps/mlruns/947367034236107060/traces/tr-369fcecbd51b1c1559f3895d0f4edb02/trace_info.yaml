@@ -1,0 +1,20 @@
+execution_duration_ms: 35152
+request_preview: '{"question": "What is the year of the event which occurred first,
+  Michael Mantenuto was born, or Miracle was produced?"}'
+request_time: '2026-03-24T04:10:11.314Z'
+response_preview: '{"trajectory": {"thought_0": "To find out which event occurred
+  first, I need to look up the birth year of Michael Mantenuto and the production
+  year of the movie \"Miracle.\" Once I have both dates, I can determine which one
+  came first. I will search for this information on Wikipedia.", "tool_name_0": "search_wikipedia",
+  "tool_args_0": {"query": "Michael Mantenuto birth year, Miracle film production
+  year"}, "observation_0": "Execution error in search_wikipedia: \nTraceback (most
+  recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agenti...'
+state: OK
+trace_id: tr-369fcecbd51b1c1559f3895d0f4edb02
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,11 @@
+execution_duration_ms: 53777
+request_preview: '{"question": "What American singer born 1951 does Jim Rooney  have
+  credits for?"}'
+request_time: '2026-03-24T04:21:12.459Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-2ac8b280009b2fc84172c6bfc617afc7
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

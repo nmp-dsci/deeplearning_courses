@@ -1,0 +1,11 @@
+execution_duration_ms: 21234
+request_preview: '{"question": "Which popular magazine was published first, Inside
+  Sports or Men''s Fitness?"}'
+request_time: '2026-03-24T04:11:47.283Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-cce061eba36c90dc88818617bdadd1b4
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,13 @@
+execution_duration_ms: 40062
+request_preview: '{"question": "The Police Integrity Commission is responsible for
+  the prevention, detection, and investigation of alleged serious misconduct in what
+  primary law enforcement agency of the state of New South Wales, Australia that is  Divided
+  into seventy six local area command"}'
+request_time: '2026-03-24T04:22:11.791Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-077f201f9023262e68bf7e24f1e5398d
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

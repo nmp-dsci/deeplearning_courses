@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/947367034236107060/99e6385e2a224bc78430725d706faa2f/artifacts
+end_time: 1774325627922
+entry_point_name: ''
+experiment_id: '947367034236107060'
+lifecycle_stage: active
+run_id: 99e6385e2a224bc78430725d706faa2f
+run_name: eval_minibatch_7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774325547214
+status: 3
+tags: []
+user_id: nathanphillips

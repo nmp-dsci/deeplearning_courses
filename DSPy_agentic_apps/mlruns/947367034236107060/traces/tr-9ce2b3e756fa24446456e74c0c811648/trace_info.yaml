@@ -1,0 +1,19 @@
+execution_duration_ms: 22063
+request_preview: '{"question": "Which science fiction trilogy has in the lead role
+  an actress who had a voice role in the 3D film Peter Rabbit?"}'
+request_time: '2026-03-24T04:09:18.560Z'
+response_preview: '{"trajectory": {"thought_0": "I need to identify the actress who
+  provided a voice in the 3D film \"Peter Rabbit\" and then find out which science
+  fiction trilogy she is part of. I will start by searching for the cast of \"Peter
+  Rabbit\" on Wikipedia to find the voice roles.", "tool_name_0": "search_wikipedia",
+  "tool_args_0": {"query": "Peter Rabbit cast"}, "observation_0": "Execution error
+  in search_wikipedia: \nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/u...'
+state: OK
+trace_id: tr-9ce2b3e756fa24446456e74c0c811648
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

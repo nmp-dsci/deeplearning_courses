@@ -1,0 +1,11 @@
+artifact_location: mlflow-artifacts:/947367034236107060/models/m-ab5c7dbde1524f74907533fea769b628/artifacts
+creation_timestamp: 1774324247989
+experiment_id: '947367034236107060'
+last_updated_timestamp: 1774324247989
+lifecycle_stage: active
+model_id: m-ab5c7dbde1524f74907533fea769b628
+model_type: ''
+name: dspy
+source_run_id: c6eeffdb507c4fcead926eecb8de1769
+status: 1
+status_message: null

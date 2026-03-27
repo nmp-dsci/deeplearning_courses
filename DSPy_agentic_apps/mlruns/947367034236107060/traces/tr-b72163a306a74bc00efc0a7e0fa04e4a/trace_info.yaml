@@ -1,0 +1,22 @@
+execution_duration_ms: 15349
+request_preview: '{"question": "What is the name of the future head coach of the University
+  of Pittsburgh football team whom Dick Jauron replaced as head coach of the Chicago
+  Bears on January 24, 1999?"}'
+request_time: '2026-03-24T04:15:52.110Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find out who was the head
+  coach of the University of Pittsburgh football team that Dick Jauron replaced as
+  head coach of the Chicago Bears on January 24, 1999. I will search for relevant
+  historical data regarding the coaching history of the Chicago Bears and its relation
+  to the University of Pittsburgh football team.", "tool_name_0": "search_wikipedia",
+  "tool_args_0": {"query": "Dick Jauron Chicago Bears head coach replacement January
+  24, 1999"}, "observation_0": "Execution error in search_wikipedia: \nTraceback (most
+  recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n ...'
+state: OK
+trace_id: tr-b72163a306a74bc00efc0a7e0fa04e4a
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

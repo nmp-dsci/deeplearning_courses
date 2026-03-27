@@ -1,0 +1,11 @@
+execution_duration_ms: 32344
+request_preview: '{"question": "What was the name of the band that starred Belinda
+  Carlisle and released the album, Germicide in 1977?"}'
+request_time: '2026-03-24T04:05:31.405Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-b00316218dd6290948030db449bc306a
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

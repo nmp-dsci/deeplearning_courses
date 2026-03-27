@@ -1,0 +1,11 @@
+execution_duration_ms: 54826
+request_preview: '{"question": "What is the birthday of the running back that U.S
+  Route 34 in Illinois is named after?"}'
+request_time: '2026-03-24T04:21:12.472Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-c1129664affdd155c786b88202d4c747
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

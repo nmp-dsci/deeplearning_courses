@@ -1,0 +1,11 @@
+execution_duration_ms: 39872
+request_preview: '{"question": "Which court case took place first, Graham v. Florida
+  or United States v. Windsor?"}'
+request_time: '2026-03-24T04:11:03.935Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-d5af14906da42dea391e9bc275175610
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT

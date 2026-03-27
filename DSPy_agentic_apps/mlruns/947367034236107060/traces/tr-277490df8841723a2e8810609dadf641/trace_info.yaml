@@ -1,0 +1,19 @@
+execution_duration_ms: 62930
+request_preview: '{"question": "What American singer born 1951 does Jim Rooney  have
+  credits for?"}'
+request_time: '2026-03-24T04:19:52.491Z'
+response_preview: '{"trajectory": {"thought_0": "I need to find information about
+  Jim Rooney''s credits to identify the American singer born in 1951. Searching for
+  Jim Rooney''s work and collaborations on Wikipedia will help me gather this information.",
+  "tool_name_0": "search_wikipedia", "tool_args_0": {"query": "Jim Rooney credits
+  American singer born 1951"}, "observation_0": "Execution error in search_wikipedia:
+  \nTraceback (most recent call last):\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/connection.py\",
+  line 204, in _new_conn\n    sock = connection.create_connection(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File
+  \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.py\",
+  line 85, in create_connection\n    raise err\n  File \"/Users/nathanphillips/git/deeplearning_courses/DSPy_agentic_apps/.venv/lib/python3.12/site-packages/urllib3/util/connection.p...'
+state: OK
+trace_id: tr-277490df8841723a2e8810609dadf641
+trace_location:
+  mlflow_experiment:
+    experiment_id: '947367034236107060'
+  type: MLFLOW_EXPERIMENT
