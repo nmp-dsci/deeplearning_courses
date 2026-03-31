@@ -1,0 +1,11 @@
+[project]
+name = "pydantic-ai-egs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dataclasses>=0.8",
+    "pydantic>=2.12.5",
+    "pydantic-ai>=1.73.0",
+]

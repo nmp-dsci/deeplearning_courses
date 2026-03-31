@@ -1,5 +1,7 @@
 from typing import Dict, Any, List
-from langchain.schema import HumanMessage  # type: ignore[import-not-found]
+from langchain_core.messages import HumanMessage
+
+
 import json
 from typing import Optional
 from langgraph.graph import MessagesState

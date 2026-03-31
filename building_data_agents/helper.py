@@ -35,7 +35,7 @@ from snowflake.core.cortex.lite_agent_service import AgentRunRequest
 from pydantic import BaseModel, PrivateAttr
 from langchain_openai import ChatOpenAI
 from langchain_tavily import TavilySearch
-from langchain.schema import HumanMessage
+from langchain_core.messages import HumanMessage
 from langgraph.graph import MessagesState, START, StateGraph, END
 from langgraph.types import Command
 from langgraph.prebuilt import create_react_agent
@@ -305,7 +305,7 @@ class CortexAgentTool:
 
         return text, citations, sql, results_str
 
-cortex_agent_tool = CortexAgentTool(session=snowpark_session)
+# cortex_agent_tool = CortexAgentTool(session=snowpark_session)
 
 from langgraph.prebuilt import create_react_agent
 from helper import agent_system_prompt
@@ -313,11 +313,11 @@ from langchain_openai import ChatOpenAI
 
 llm = ChatOpenAI(model="gpt-4o")
 
-cortex_agent = create_react_agent(llm, tools=[cortex_agent_tool.run], prompt=agent_system_prompt(f"""
-        You are the Researcher. You can answer questions 
-        using customer deal data along with meeting notes.
-        Do not take any further action.
-    """))
+# cortex_agent = create_react_agent(llm, tools=[cortex_agent_tool.run], prompt=agent_system_prompt(f"""
+#         You are the Researcher. You can answer questions 
+#         using customer deal data along with meeting notes.
+#         Do not take any further action.
+#     """))
 
 @instrument(
     span_type=SpanAttributes.SpanType.RETRIEVAL,
@@ -497,94 +497,94 @@ def synthesizer_node(state: State) -> Command[Literal[END]]:
 
 # Evaluations
 
-# Use GPT-4o for RAG Triad Evaluations
-provider = OpenAI(model_engine="gpt-4o")
+# # Use GPT-4o for RAG Triad Evaluations
+# provider = OpenAI(model_engine="gpt-4o")
 
-# Define a groundedness feedback function
-f_groundedness = (
-    Feedback(
-        provider.groundedness_measure_with_cot_reasons, name="Groundedness"
-    )
-    .on({
-            "source": Selector(
-                span_type=SpanAttributes.SpanType.RETRIEVAL,
-                span_attribute=SpanAttributes.RETRIEVAL.RETRIEVED_CONTEXTS,
-                collect_list=True
-            )
-        }
-    )
-    .on_output()
-)
+# # Define a groundedness feedback function
+# f_groundedness = (
+#     Feedback(
+#         provider.groundedness_measure_with_cot_reasons, name="Groundedness"
+#     )
+#     .on({
+#             "source": Selector(
+#                 span_type=SpanAttributes.SpanType.RETRIEVAL,
+#                 span_attribute=SpanAttributes.RETRIEVAL.RETRIEVED_CONTEXTS,
+#                 collect_list=True
+#             )
+#         }
+#     )
+#     .on_output()
+# )
 
-# Question/answer relevance between overall question and answer.
-f_answer_relevance = (
-    Feedback(provider.relevance_with_cot_reasons, name="Answer Relevance")
-    .on_input()
-    .on_output()
-)
+# # Question/answer relevance between overall question and answer.
+# f_answer_relevance = (
+#     Feedback(provider.relevance_with_cot_reasons, name="Answer Relevance")
+#     .on_input()
+#     .on_output()
+# )
 
-# Context relevance between question and each context chunk.
-f_context_relevance = (
-    Feedback(provider.context_relevance_with_cot_reasons, name="Context Relevance")
-    .on({
-            "question": Selector(
-                span_type=SpanAttributes.SpanType.RETRIEVAL,
-                span_attribute=SpanAttributes.RETRIEVAL.QUERY_TEXT,
-            )
-        }
-    )
-    .on({
-            "context": Selector(
-                span_type=SpanAttributes.SpanType.RETRIEVAL,
-                span_attribute=SpanAttributes.RETRIEVAL.RETRIEVED_CONTEXTS,
-                collect_list=False
-            )
-        }
-    )
-    .aggregate(np.mean)
-)
+# # Context relevance between question and each context chunk.
+# f_context_relevance = (
+#     Feedback(provider.context_relevance_with_cot_reasons, name="Context Relevance")
+#     .on({
+#             "question": Selector(
+#                 span_type=SpanAttributes.SpanType.RETRIEVAL,
+#                 span_attribute=SpanAttributes.RETRIEVAL.QUERY_TEXT,
+#             )
+#         }
+#     )
+#     .on({
+#             "context": Selector(
+#                 span_type=SpanAttributes.SpanType.RETRIEVAL,
+#                 span_attribute=SpanAttributes.RETRIEVAL.RETRIEVED_CONTEXTS,
+#                 collect_list=False
+#             )
+#         }
+#     )
+#     .aggregate(np.mean)
+# )
 
 # Use GPT-4.1 for Goal-Plan-Act
-gpa_eval_provider = OpenAI(model_engine="gpt-4.1")
+# gpa_eval_provider = OpenAI(model_engine="gpt-4.1")
 
-# Goal-Plan-Act: Logical consistency of trace
-f_logical_consistency = Feedback(
-    gpa_eval_provider.logical_consistency_with_cot_reasons,
-    name="Logical Consistency",
-).on({
-    "trace": Selector(trace_level=True),
-})
+# # Goal-Plan-Act: Logical consistency of trace
+# f_logical_consistency = Feedback(
+#     gpa_eval_provider.logical_consistency_with_cot_reasons,
+#     name="Logical Consistency",
+# ).on({
+#     "trace": Selector(trace_level=True),
+# })
 
-# Goal-Plan-Act: Execution efficiency of trace
-f_execution_efficiency = Feedback(
-    gpa_eval_provider.execution_efficiency_with_cot_reasons,
-    name="Execution Efficiency",
-).on({
-    "trace": Selector(trace_level=True),
-})
+# # Goal-Plan-Act: Execution efficiency of trace
+# f_execution_efficiency = Feedback(
+#     gpa_eval_provider.execution_efficiency_with_cot_reasons,
+#     name="Execution Efficiency",
+# ).on({
+#     "trace": Selector(trace_level=True),
+# })
 
-# Goal-Plan-Act: Plan adherence
-f_plan_adherence = Feedback(
-    gpa_eval_provider.plan_adherence_with_cot_reasons,
-    name="Plan Adherence",
-).on({
-    "trace": Selector(trace_level=True),
-})
+# # Goal-Plan-Act: Plan adherence
+# f_plan_adherence = Feedback(
+#     gpa_eval_provider.plan_adherence_with_cot_reasons,
+#     name="Plan Adherence",
+# ).on({
+#     "trace": Selector(trace_level=True),
+# })
 
 # Goal-Plan-Act: Plan quality
-f_plan_quality = Feedback(
-    gpa_eval_provider.plan_quality_with_cot_reasons,
-    name="Plan Quality",
-).on({
-    "trace": Selector(trace_level=True),
-})
+# f_plan_quality = Feedback(
+#     gpa_eval_provider.plan_quality_with_cot_reasons,
+#     name="Plan Quality",
+# ).on({
+#     "trace": Selector(trace_level=True),
+# })
 
-from IPython.display import HTML, display
+# from IPython.display import HTML, display
 
-def display_eval_reason(text, width=800):
-    # Strip any trailing "Score: X" from the end of the text
-    raw_text = str(text).rstrip()
-    cleaned_text = re.sub(r"\s*Score:\s*-?\d+(?:\.\d+)?\s*$", "", raw_text, flags=re.IGNORECASE)
-    # Convert newlines to HTML line breaks, then wrap
-    html_text = cleaned_text.replace('\n', '<br><br>')
-    display(HTML(f'<div style="font-size: 15px; word-wrap: break-word; width: {width}px;">{html_text}</div>'))
+# def display_eval_reason(text, width=800):
+#     # Strip any trailing "Score: X" from the end of the text
+#     raw_text = str(text).rstrip()
+#     cleaned_text = re.sub(r"\s*Score:\s*-?\d+(?:\.\d+)?\s*$", "", raw_text, flags=re.IGNORECASE)
+#     # Convert newlines to HTML line breaks, then wrap
+#     html_text = cleaned_text.replace('\n', '<br><br>')
+#     display(HTML(f'<div style="font-size: 15px; word-wrap: break-word; width: {width}px;">{html_text}</div>'))
