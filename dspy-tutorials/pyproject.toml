@@ -1,0 +1,32 @@
+[project]
+name = "nmp-dspy-tutorials"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "asyncio>=4.0.0",
+    "bm25s>=0.3.4",
+    "datasets>=4.8.4",
+    "dotenv>=0.9.9",
+    "dspy[mcp]>=3.2.0",
+    "faiss-cpu>=1.13.2",
+    "fal-client>=0.14.1",
+    "fastapi>=0.136.0",
+    "func-timeout>=4.3.5",
+    "jax[cpu]>=0.10.0",
+    "math-equivalence",
+    "mlflow>=3.11.1",
+    "optuna>=4.8.0",
+    "orjson>=3.11.8",
+    "pillow>=12.2.0",
+    "pydantic>=2.13.3",
+    "pystemmer>=3.0.0",
+    "tavily>=1.1.0",
+    "tavily-python>=0.7.23",
+    "typing>=3.10.0.0",
+    "uvicorn>=0.45.0",
+]
+
+[tool.uv.sources]
+math-equivalence = { git = "https://github.com/hendrycks/math.git" }

@@ -5,8 +5,7 @@ Objective: learn structure of repo and factor parts of it.
 
 `agentic-ai-public-test`
  * Platform:docker
- * Format control: pydantic
- * Logging:postgres
+ * Format:postgres
  * DBinteractions: sqlachemy 
  * Evaluations? (`refactor`)
  * Unit testing? (`refactor`)
@@ -14,7 +13,8 @@ Objective: learn structure of repo and factor parts of it.
  * API? fastapi 
  * multi-agent planner ? manual: MOVE to MCP Orchestrator (`refactor`)
  * Error handling:
- * *  try/ catch 
+ * *  try/ cat control: pydantic
+ * Loggingch 
  * * gracefully handling connection issues
  * 
 
